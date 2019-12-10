@@ -18,7 +18,7 @@
     margin: 0 auto;
     max-width: 1400px;
     background-color: white;
-    padding: 1em 2em;
+    /* padding: 1em 2em; */
     box-sizing: border-box;
     width: 100%;
     display: flex;
@@ -45,10 +45,8 @@
   </main>
 
   <footer>
-    <span>
-      &copy; {new Date().getFullYear()} Your Blog.
-      Powered by <a href="https://sapper.svelte.dev" target="_blank">Sapper</a>.
-      Template by <a href="https://www.twitter.com/Charca" target="_blank">Maxi Ferreira</a>.
-    </span>
+  <div>
+  <p>A division of <a href="/">Codebrahma</a></p>
+  <p>copyright@2019 Pipesort Technologies</p></div>
   </footer>
 </div>

@@ -1,3 +1,9 @@
+<script>
+import OurWork from './ourWork.svelte';
+import TechWeUse from './techWeUse.svelte';
+import ContactForm from "./contactform.svelte";
+</script>
+
 <style>
 
 .header-text{
@@ -13,7 +19,10 @@ font-size: 1.5rem;
     flex: 1;
     justify-content: center;
     min-height: 400px;
-  }
+    height: 100vh;
+    padding-bottom:20px; 
+    padding:10px;
+    }
 
   .seven{
     color:#fd6378;
@@ -48,6 +57,18 @@ font-size: 1.5rem;
     max-width: 400px;
   }
 
+.wave{
+position: absolute;
+ background:#fd6378;
+top:350px;
+height: 143px;
+width:100%;
+background-image: url("/wave.png");
+background-size: cover;
+background-repeat: no-repeat;
+transform: rotateX(180deg)
+  }
+
   @media (max-width: 1020px) {
     p {
       font-size: 1.2em;
@@ -58,16 +79,20 @@ font-size: 1.5rem;
     }
   }
 
+
   @media (max-width: 800px) {
     .home-container {
       flex-direction: column;
       text-align: center;
+      width:calc(100vh);
     }
 
     .home-copy {
       flex: 0;
       padding-bottom: 2em;
+      padding-right: 2em;
       text-align: center;
+
 
     }
 
@@ -88,3 +113,11 @@ font-size: 1.5rem;
     <figcaption>Illustration thanks to <a href="https://undraw.co" target="_blank">Undraw</a></figcaption>
   </figure>
 </div>
+
+<div class="wave"></div>
+
+<OurWork />
+
+<TechWeUse />
+
+<ContactForm />
