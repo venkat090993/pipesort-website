@@ -14,10 +14,8 @@ font-size: 1.5rem;
 }
 
   .home-container {
-    align-items: center;
     display: flex;
     flex: 1;
-    justify-content: center;
     min-height: 400px;
     height: 100vh;
     padding-bottom:20px; 
@@ -32,6 +30,7 @@ font-size: 1.5rem;
 
   .home-copy {
     flex: 1;
+    padding-left:20px;
   }
 
   h1 {
@@ -85,6 +84,7 @@ transform: rotateX(180deg)
       flex-direction: column;
       text-align: center;
       width:100vh;
+      margin:auto;
     }
 
     .home-copy {
@@ -103,14 +103,15 @@ position: absolute;
 
    @media only screen and (max-width: 450px) {
     .home-container {
-           width:100vh;
-           margin:auto;
-           margin-left: 18px;
+            width:100%;
+           margin: auto;
+           padding-bottom:0;
+           margin-bottom:0;
     }
+
 
    
 .wave{
-position: absolute;
  display: none;
   }
   
@@ -130,8 +131,8 @@ position: absolute;
     <img alt='Person typing on laptop' src='undraw-illustration.svg'>
     <figcaption>Illustration thanks to <a href="https://undraw.co" target="_blank">Undraw</a></figcaption>
   </figure>
-</div>
 
+</div>
 <div class="wave"></div>
 
 <OurWork />

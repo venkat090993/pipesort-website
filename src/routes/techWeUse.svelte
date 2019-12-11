@@ -24,12 +24,34 @@
 
  .contain{
 margin:0;
-width:90vh;  
+width:100%;  
+  }
+
+  h1{
+    width:100%;
+    font-size: 30px;
   }
 
   .totalDiv{
-    width:100vh;
+   width:100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
   }
+}
+
+
+@media only screen and (max-width: 450px){
+
+
+ .contain{
+width:100%;
+padding:30px;  
+  } 
+  .totalDiv{
+   width:100%;
+  }  
+
 }
 
  
@@ -38,7 +60,7 @@ width:90vh;
 <div class="totalDiv">
 <h1>Tech We Use</h1>
 <div class="contain">
-    <Carousel class="Carousel" loop autoplay={3000}>
+    <Carousel class="carousel" loop autoplay={3000}>
       <img src="/react.png" class="slide-content" />
       <img src="/amazon.png" class="slide-content" />
       <img src="/gatsby.png" class="slide-content" />

@@ -11,7 +11,6 @@
 .divcontainer{
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
 
 }
 
@@ -37,7 +36,7 @@ h1{
 }
 
 input{
-font-size: 18px
+font-size: 18px;
 }
 
 @media only screen and (max-width: 600px){
@@ -46,19 +45,16 @@ font-size: 18px
    background: red;
    margin-top:20px;
 padding:20px;
-width:100vh;  
+width:100%;  
   }
 
-  .contactus{
-    width:100vh;
-  }
 
   
 .forms input{
     margin:20px;
     height: 40px;
     background-color: white;
-    width:400px;
+    width:200px;
     border-radius: 50px;
     padding:20px;
     box-sizing: border-box;
@@ -70,7 +66,47 @@ h1{
     color:white;
 }
 
+} 
+
+
+@media only screen and (max-width: 450px){
+
+.contactus{
+        width:100%;
+  }
+
+
+  
+.forms input{
+    margin:10px;
+    height: 30px;
+    background-color: white;
+    width:200px;
+    border-radius: 50px;
+    padding:10px;
+    box-sizing: border-box;
+    font-size: 10px;
 }
+
+h1{
+    line-height: 5rem;
+    text-align: center;
+    color:white;
+}
+
+.contactus{
+    width: 100%;
+    padding:0;
+    margin:0;
+    background:linear-gradient(to right, #cc2b5e , #753a88);
+    height: 80vh;
+
+}
+
+
+
+} 
+
 
 </style>
 

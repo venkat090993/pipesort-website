@@ -49,10 +49,10 @@ border: 1px solid white;
   
 
       .sectionB .contain .item:hover .button{
-      background-color: #fd6378;
       color: white;
       border: 0.5px solid black ;
       transition: 0.5s ease-in;
+      background: #fd6378;
     }
 
 
@@ -106,18 +106,23 @@ text-align: center;
     }
 
     @media only screen and (max-width: 600px) {
+
+       h1{
+    width:100%;
+    font-size: 30px;
+  }
+
+      .sectionB{
+        width:100%;
+
+      }
   .contain {
     display: inline-block;
-          width:100%;
-          margin:auto;
-  }
+    }
 
-h1{
-text-align: center;
-  }
 
   .sectionB .contain .item{
-      width:95vh;
+      width:90%;
       margin:auto;
       box-sizing: border-box;
       height: 500px;
@@ -125,27 +130,45 @@ text-align: center;
       
   }
 
-
-
-      .button{
-      width:100px;
-      padding:5px;
-      border: 0.5px solid black;
-      color: #fd6378;
-      background-color: aliceblue;
-    }
 }
 
 
    @media only screen and (max-width: 450px) {
-     .sectionB{
-   width:100vh;
-     }
-     header{display:flex;
-     justify-content: center;}
 
+       .sectionB{
+        width:100%;
 
+      }
+  .contain {
+    display: inline-block;
+    }
+
+h1{
+text-align: center;
+  }
+
+  .sectionB .contain .item{
+      width:100%;
+      margin:auto;
+      box-sizing: border-box;
+      height: 450px;
+      margin-bottom: 10px;
+      
+  }
+
+        .logoImages{
+        width:40px;
+        height: 40px;
+        padding:2px;
+        margin:5px;
+    }
 }
+
+
+
+
+
+
 
 
 
