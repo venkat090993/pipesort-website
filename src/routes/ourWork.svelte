@@ -108,8 +108,7 @@ text-align: center;
     @media only screen and (max-width: 600px) {
   .contain {
     display: inline-block;
-          width:calc(100vh);
-          background: red;
+          width:100%;
           margin:auto;
   }
 
@@ -118,12 +117,15 @@ text-align: center;
   }
 
   .sectionB .contain .item{
-      width:calc(100vh);
+      width:95vh;
       margin:auto;
       box-sizing: border-box;
       height: 500px;
+      margin-bottom: 10px;
       
   }
+
+
 
       .button{
       width:100px;
@@ -135,11 +137,23 @@ text-align: center;
 }
 
 
+   @media only screen and (max-width: 450px) {
+     .sectionB{
+   width:100vh;
+     }
+     header{display:flex;
+     justify-content: center;}
+
+
+}
+
+
 
 </style>
 
 <div class="sectionB">
-    <h1>Our Works</h1>
+<header>    <h1>Our Works</h1>
+</header>
     <div class="contain">
 
         <div class="item">
@@ -191,12 +205,5 @@ text-align: center;
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
     </div>
 </div>

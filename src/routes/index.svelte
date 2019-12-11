@@ -60,7 +60,7 @@ font-size: 1.5rem;
 .wave{
 position: absolute;
  background:#fd6378;
-top:350px;
+top:370px;
 height: 143px;
 width:100%;
 background-image: url("/wave.png");
@@ -84,7 +84,7 @@ transform: rotateX(180deg)
     .home-container {
       flex-direction: column;
       text-align: center;
-      width:calc(100vh);
+      width:100vh;
     }
 
     .home-copy {
@@ -92,10 +92,28 @@ transform: rotateX(180deg)
       padding-bottom: 2em;
       padding-right: 2em;
       text-align: center;
-
-
     }
 
+.wave{
+position: absolute;
+ display: none;
+  }
+  
+  }
+
+   @media only screen and (max-width: 450px) {
+    .home-container {
+           width:100vh;
+           margin:auto;
+           margin-left: 18px;
+    }
+
+   
+.wave{
+position: absolute;
+ display: none;
+  }
+  
   }
 </style>
 
