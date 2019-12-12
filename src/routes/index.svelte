@@ -2,6 +2,7 @@
 import OurWork from './ourWork.svelte';
 import TechWeUse from './techWeUse.svelte';
 import ContactForm from "./contactform.svelte";
+import OurServices from './OurServices.svelte';
 </script>
 
 <style>
@@ -54,6 +55,9 @@ font-size: 1.5rem;
   img {
     width: 100%;
     max-width: 400px;
+    position: relative;
+    top:10px;
+    right:10px;
   }
 
 .wave{
@@ -128,14 +132,15 @@ position: absolute;
   <p>Experienced <a href="/">Reactjs</a> developers rooting for <a href="/">Sveltejs</a>.
   </div>
   <figure>
-    <img alt='Person typing on laptop' src='undraw-illustration.svg'>
-    <figcaption>Illustration thanks to <a href="https://undraw.co" target="_blank">Undraw</a></figcaption>
+    <img alt='Home page image' src='Homepage.svg'>
   </figure>
 
 </div>
 <div class="wave"></div>
 
 <OurWork />
+
+<OurServices />
 
 <TechWeUse />
 

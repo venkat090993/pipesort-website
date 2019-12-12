@@ -8,6 +8,7 @@ const readingTime = require('reading-time')
 
 // Support JSX syntax highlighting
 require('prismjs/components/prism-jsx.min')
+require('prismjs/components/prism-typescript')
 
 const cwd = process.cwd()
 const POSTS_DIR = path.join(cwd, 'src/routes/blog/posts/')

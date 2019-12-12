@@ -1,10 +1,10 @@
 <style>
 
-.contactus{
+.contact-us{
     width: 100%;
     padding:0;
     margin:0;
-    background:linear-gradient(to right, #cc2b5e , #753a88);
+    background:linear-gradient(to right, #f84ab0,60%,  #cc2b5e);
     height: 100vh;
 
 }
@@ -71,7 +71,7 @@ h1{
 
 @media only screen and (max-width: 450px){
 
-.contactus{
+.contact-us{
         width:100%;
   }
 
@@ -94,11 +94,11 @@ h1{
     color:white;
 }
 
-.contactus{
+.contact-us{
     width: 100%;
     padding:0;
     margin:0;
-    background:linear-gradient(to right, #cc2b5e , #753a88);
+    background:linear-gradient(to right, #f84ab0,  #cc2b5e);
     height: 80vh;
 
 }
@@ -110,8 +110,8 @@ h1{
 
 </style>
 
-<div class="contactus">
-<h1>Contact Us</h1>
+<div class="contact-us">
+<h1>Get a free consultation</h1>
 <div class="divcontainer">
   <form class="forms">
   <input type="text" id="name" placeholder="Name" />
