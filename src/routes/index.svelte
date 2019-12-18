@@ -128,16 +128,20 @@ position: absolute;
 
 <div class="home-container">
   <div class="home-copy">
-<h1>We are a small team of <span class="seven">7</span></h1>  
+<h1                                             data-aos="fade-zoom-in"
+                                                data-aos-duration="2000"
+                                                data-aos-easing="ease-in-out"
+                                                data-aos-once="false"
+                                                data-aos-anchor-placement="top-center" >We are a small team of <span class="seven">7</span></h1>  
   <p>Experienced <a href="/">Reactjs</a> developers rooting for <a href="/">Sveltejs</a>.
   </div>
   <figure>
     <img alt='Home page image' src='Homepage.svg' data-aos="zoom-in-left"
                                                 data-aos-delay="50"
-                                                data-aos-duration="1000"
+                                                data-aos-duration="1200"
                                                 data-aos-easing="ease-in-out"
-                                                data-aos-once="false"
                                                 data-aos-anchor-placement="top-center"
+
   >
   </figure>
 
