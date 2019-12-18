@@ -2,7 +2,6 @@
 import OurWork from './ourWork.svelte';
 import TechWeUse from './techWeUse.svelte';
 import ContactForm from "./contactform.svelte";
-import OurServices from './OurServices.svelte';
 </script>
 
 <style>
@@ -72,17 +71,7 @@ background-repeat: no-repeat;
 transform: rotateX(180deg)
   }
 
-  @media (max-width: 1020px) {
-    p {
-      font-size: 1.2em;
-    }
-
-    img {
-      max-width: 300px;
-    }
-  }
-
-
+ 
   @media (max-width: 800px) {
     .home-container {
       flex-direction: column;
@@ -122,6 +111,7 @@ position: absolute;
   }
 </style>
 
+
 <svelte:head>
   <title>Pipesort Technologies</title>
 </svelte:head>
@@ -149,8 +139,6 @@ position: absolute;
 <div class="wave"></div>
 
 <OurWork />
-
-<OurServices />
 
 <TechWeUse />
 
