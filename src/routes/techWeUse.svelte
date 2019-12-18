@@ -61,11 +61,11 @@ padding:30px;
 <h1>Tech We Use</h1>
 <div class="contain">
     <Carousel class="carousel" loop autoplay={3000}>
-      <img src="/react.png" class="slide-content" alt="react" />
-      <img src="/amazon.png" class="slide-content" alt="amazon" />
-      <img src="/gatsby.png" class="slide-content" alt="gatsby" />
-      <img src="/nodejs.png" class="slide-content"  alt="nodejs" />
-      <img src="/graphql.png" class="slide-content"alt="react"  />
+      <img src="/react.png" class="slide-content" alt="react" loading="lazy" />
+      <img src="/amazon.png" class="slide-content" alt="amazon" loading="lazy"  />
+      <img src="/gatsby.png" class="slide-content" alt="gatsby" loading="lazy"   />
+      <img src="/nodejs.png" class="slide-content"  alt="nodejs" loading="lazy"  />
+      <img src="/graphql.png" class="slide-content"alt="react"  loading="lazy" />
     </Carousel>
 </div>
 </div>
