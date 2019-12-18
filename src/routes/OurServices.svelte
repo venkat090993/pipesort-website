@@ -160,20 +160,20 @@ text-align: center;
 </header>
     <div class="contain">
 
-        <div class="item" alt="AWS cloud"
+        <div class="item" alt="AWS cloud" loading="lazy"
         style="background-image:url('cloud-image.jp
         g')";
         data-text="AWS cloud
         High end consultation on moving a chunk or your entire workload to clould. We do a thorough analysis of your deployment architechture, provide you with insights on bottlenecks, migration risk and ideal cloud deployment architecture">
         </div>
 
-          <div class="item" alt="web services"
+          <div class="item" alt="web services" loading="lazy"
         style="background-image:url('web-service.jpg')";
         data-text="Application development
         We help you in building highly intuitive and scalable web mobile and PWA apps with bleeding edge tech stacks.">
         </div>
         
-           <div class="item" alt="consulting"
+           <div class="item" alt="consulting" loading="lazy"
         style="background-image:url('training-service.jpg')";
         data-text="Consulting
         Providing advisory services in the development and delivery of digital and technology strategies">
