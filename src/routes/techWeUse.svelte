@@ -65,7 +65,7 @@ padding:30px;
       <img src="/amazon.png" class="slide-content" alt="amazon" />
       <img src="/gatsby.png" class="slide-content" alt="gatsby" />
       <img src="/nodejs.png" class="slide-content"  alt="nodejs" />
-      <img src="/graphql.png" class="slide-content"alt="graphql"  />
+      <img src="/graphql.png" class="slide-content"alt="react"  />
     </Carousel>
 </div>
 </div>

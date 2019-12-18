@@ -132,7 +132,13 @@ position: absolute;
   <p>Experienced <a href="/">Reactjs</a> developers rooting for <a href="/">Sveltejs</a>.
   </div>
   <figure>
-    <img alt='Home page image' src='Homepage.svg'>
+    <img alt='Home page image' src='Homepage.svg' data-aos="zoom-in-left"
+                                                data-aos-delay="50"
+                                                data-aos-duration="1000"
+                                                data-aos-easing="ease-in-out"
+                                                data-aos-once="false"
+                                                data-aos-anchor-placement="top-center"
+  >
   </figure>
 
 </div>
