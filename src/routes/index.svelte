@@ -1,10 +1,22 @@
 <script>
 import OurWork from './ourWork.svelte';
-import TechWeUse from './techWeUse.svelte';
+import TechWeUse from './techPage.svelte';
 import ContactForm from "./contactform.svelte";
+import About from "./about.svelte";
+import Cloud from "./cloudInternal.svelte";
 </script>
 
 <style>
+
+.hr{
+    width:100%;
+    height:2px;
+    background-color: black;
+}
+
+.logo{
+    visibility: visible;
+}
 
 .header-text{
 font-size: 3rem;
@@ -14,83 +26,277 @@ font-size: 1.5rem;
 }
 
   .home-container {
+      position: relative;
+      flex:1;
     display: flex;
-    flex: 1;
-    min-height: 400px;
-    height: 100vh;
-    padding-bottom:20px; 
-    padding:10px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80vh;
+    width:100%;
     }
 
-  .seven{
+  /* .seven{
     color:#fd6378;
     font-size: 8rem;
     margin:0
-  }
+  } */
 
-  .home-copy {
-    flex: 1;
-    padding-left:20px;
-  }
-
-  h1 {
-    font-weight: 700;
-  }
-
-  p {
-    font-size: 1.4em;
-  }
-
-  figure {
-    margin: 0 1em;
+.base{
+    position: absolute;
     text-align: center;
-  }
+    margin:auto;
+}
 
-  figcaption {
-    font-size: .8em;
-    font-style: italic;
-  }
+.para{
+    position: absolute;
+    text-align: center;
+    margin:auto;
+}
 
-  img {
-    width: 100%;
-    max-width: 400px;
-    position: relative;
-    top:10px;
-    right:10px;
-  }
 
-.wave{
-position: absolute;
- background:#fd6378;
-top:370px;
-height: 143px;
+.inner-container{ 
+display: flex;
+flex-direction: column; 
 width:100%;
-background-image: url("/wave.png");
-background-size: cover;
-background-repeat: no-repeat;
-transform: rotateX(180deg)
-  }
+height: 300px;
+justify-content: center;
+align-items: center;
+margin-top:100px;
+}
+
+.base:first-child{
+    opacity: 0;
+    visibility: hidden; 
+    animation: anim 4s linear 1;
+    }
+.base:nth-child(2){
+    opacity: 0;
+    visibility: hidden; 
+    animation: anim 4s 4s linear 1;
+}
+.base:nth-child(3){
+    opacity: 1;
+    animation: anim1 4s 8s linear 1 both;
+} 
+
+
+@keyframes anim{
+    0%, 30%{
+        opacity: 0;
+        bottom:43%;
+visibility: hidden; 
+    }
+    40%,90%{
+        bottom:48%;
+        opacity: 1;
+        visibility: visible
+    }
+      95%,100%{
+        opacity: 0;
+        bottom:48%;
+visibility: hidden; 
+    }
+} 
+
+@keyframes anim1{
+    0%, 30%{
+        opacity: 0;
+        bottom:43%;
+visibility: hidden; 
+    }
+    40%,60%{
+        bottom:48%;
+        opacity: 1;
+        visibility: visible
+    }
+      70%,100%{
+        opacity: 1;
+        bottom:48%;
+        visibility: visible;
+    }
+
+
+
+} 
+
+.body-container{ 
+    position: relative;
+display: flex;
+flex-direction: column; 
+width:100%;
+height: 500px;
+justify-content: center;
+align-items: center;
+margin-top: -37rem;
+}
+
+.para:first-child{
+    opacity: 0;
+    visibility: hidden; 
+     animation: bodyAnimation 4s linear 1; 
+    }
+.para:nth-child(2){
+    opacity: 0;
+    visibility: hidden; 
+     animation: bodyAnimation 4s 4s linear 1; 
+}
+.para:nth-child(3){
+    opacity: 1;
+    visibility: hidden;
+    animation: bodyAnimation3 4s 8s linear 1 both; 
+} 
+
+
+@keyframes bodyAnimation{
+    0%, 30%{
+        opacity: 0;
+        top:50%;
+visibility: hidden; 
+    }
+    40%,90%{
+        top:55%;
+        opacity: 1;
+        visibility: visible
+    }
+      95%,100%{
+        opacity: 0;
+        top:55%;
+visibility: hidden; 
+    }
+} 
+
+@keyframes bodyAnimation3 {
+0%, 30%{
+        opacity: 0;
+        top:50%;
+visibility: hidden; 
+    }
+    40%,60%{
+        top:55%;
+        opacity: 1;
+        visibility: visible
+    }
+      70%,100%{
+        opacity: 1;
+        top:55%;
+        visibility: visible
+    }
+
+
+} 
+
+
+
 
  
   @media (max-width: 800px) {
     .home-container {
       flex-direction: column;
+      flex:1;
       text-align: center;
       width:100vh;
       margin:auto;
     }
 
-    .home-copy {
-      flex: 0;
-      padding-bottom: 2em;
-      padding-right: 2em;
-      text-align: center;
+
+
+.para{
+    position: absolute;
+    text-align: center;
+    margin:auto;
+    word-wrap: break-word;
+    width:100%;
+}
+.body-container{ 
+    position: relative;
+display: flex;
+flex-direction: column; 
+width:100%;
+height: 400px;
+justify-content: center;
+align-items: center;
+/* margin-top: -34rem; */
+}
+
+
+
+@keyframes anim{
+    0%, 30%{
+        opacity: 0;
+        bottom:35%;
+visibility: hidden; 
+    }
+    40%,90%{
+        bottom:38%;
+        opacity: 1;
+        visibility: visible
+    }
+      95%,100%{
+        opacity: 0;
+        bottom:38%;
+visibility: hidden; 
+    }
+} 
+
+@keyframes anim1{
+    0%, 30%{
+        opacity: 0;
+        bottom:35%;
+visibility: hidden; 
+    }
+    40%,60%{
+        bottom:38%;
+        opacity: 1;
+        visibility: visible
+    }
+      70%,100%{
+        opacity: 1;
+        bottom:38%;
+        visibility: visible;
     }
 
-.wave{
-position: absolute;
- display: none;
-  }
+
+
+} 
+
+@keyframes bodyAnimation{
+    0%, 30%{
+        opacity: 0;
+        top:50%;
+visibility: hidden; 
+    }
+    40%,90%{
+        top:60%;
+        opacity: 1;
+        visibility: visible
+    }
+      95%,100%{
+        opacity: 0;
+        top:60%;
+visibility: hidden; 
+    }
+} 
+
+@keyframes bodyAnimation3 {
+0%, 30%{
+        opacity: 0;
+        top:50%;
+visibility: hidden; 
+    }
+    40%,60%{
+        top:60%;
+        opacity: 1;
+        visibility: visible
+    }
+      70%,100%{
+        opacity: 1;
+        top:60%;
+        visibility: visible
+    }
+
+
+} 
   
   }
 
@@ -99,14 +305,121 @@ position: absolute;
             width:100%;
            margin: auto;
            padding-bottom:0;
+           flex:1;
            margin-bottom:0;
     }
 
+.inner-container{ 
+display: flex;
+flex-direction: column; 
+width:100%;
+height: 300px;
+justify-content: center;
+align-items: center;
+}
 
-   
-.wave{
- display: none;
-  }
+.para{
+    position: absolute;
+    text-align: center;
+    margin:auto;
+    word-wrap: break-word;
+    width:100%;
+    font-family:"neuton"
+}
+
+.logo{
+    visibility: visible;
+}
+.body-container{ 
+    position: relative;
+display: flex;
+flex-direction: column; 
+width:100%;
+height: 400px;
+justify-content: center;
+align-items: center;
+/* margin-top: -34rem; */
+}
+
+
+
+@keyframes anim{
+    0%, 30%{
+        opacity: 0;
+        bottom:30%;
+visibility: hidden; 
+    }
+    40%,90%{
+        bottom:35%;
+        opacity: 1;
+        visibility: visible
+    }
+      95%,100%{
+        opacity: 0;
+        bottom:35%;
+visibility: hidden; 
+    }
+} 
+
+@keyframes anim1{
+    0%, 30%{
+        opacity: 0;
+        bottom:30%;
+visibility: hidden; 
+    }
+    40%,60%{
+        bottom:35%;
+        opacity: 1;
+        visibility: visible
+    }
+      70%,100%{
+        opacity: 1;
+        bottom:35%;
+        visibility: visible;
+    }
+
+
+
+} 
+
+@keyframes bodyAnimation{
+    0%, 30%{
+        opacity: 0;
+        top:60%;
+visibility: hidden; 
+    }
+    40%,90%{
+        top:65%;
+        opacity: 1;
+        visibility: visible
+    }
+      95%,100%{
+        opacity: 0;
+        top:65%;
+visibility: hidden; 
+    }
+} 
+
+@keyframes bodyAnimation3 {
+0%, 30%{
+        opacity: 0;
+        top:60%;
+visibility: hidden; 
+    }
+    40%,60%{
+        top:65%;
+        opacity: 1;
+        visibility: visible
+    }
+      70%,100%{
+        opacity: 1;
+        top:65%;
+        visibility: visible
+    }
+
+
+} 
+
   
   }
 </style>
@@ -116,30 +429,57 @@ position: absolute;
   <title>Pipesort Technologies</title>
 </svelte:head>
 
-<div class="home-container">
-  <div class="home-copy">
-<h1                                             data-aos="fade-zoom-in"
-                                                data-aos-duration="2000"
-                                                data-aos-easing="ease-in-out"
-                                                data-aos-once="false"
-                                                data-aos-anchor-placement="top-center" >We are a small team of <span class="seven">7</span></h1>  
-  <p>Experienced <a href="/">Reactjs</a> developers rooting for <a href="/">Sveltejs</a>.
-  </div>
-  <figure>
-    <img alt='Home page image' src='Homepage.svg' data-aos="zoom-in-left"
-                                                data-aos-delay="50"
-                                                data-aos-duration="1200"
-                                                data-aos-easing="ease-in-out"
-                                                data-aos-anchor-placement="top-center"
+<div class="home-container flex flex-col lg:mt-24 lg:-mb-20 justify-start items-center lg:w-full md:w-full md:-mb-20 md:mt-24 sm: w-full sm: h-full">
 
-  >
-  </figure>
+<div class="lg:w-20 lg:h-20 lg:bg-red-800 lg:mt-0 lg:logo md:w-20 md:h-20  md:mt-0 md:bg-red-800 md:logo sm: w-20 sm: h-20 sm: bg-red-800 sm: logo sm: mt-16"></div>
+
+<div class="w-1/2 flex flex-col justify-start h-1/2 items-center md:-mt-10 sm: -mt-10 sm: h-1/2">
+
+<p class="lg:text-center lg:w-full lg:text-4xl lg:font-bold md:text-4xl md:font-bold md:text-center sm: text-2xl sm: w-64  sm: mt-20 sm: text-2xl sm: font-bold">We're experts in</p>
+
+<div class="inner-container sm: w-screen m-auto">
+
+<div class="base lg:text-6xl font-bold sm: text-5xl " style="color:#F07041">
+<h1>Design</h1>
+</div>
+ 
+
+<div class='base lg:text-6xl font-bold sm: text-5xl' style="color:#e52780">
+<h1>Custom-app</h1> 
+</div> 
+
+<div class="base lg:text-6xl font-bold sm: text-5xl" style="color:#532d87">
+<h1>Cloud</h1>
+</div>
+
+
 
 </div>
-<div class="wave"></div>
+
+<div class="body-container flex flex-col ">
+
+<div class="para">
+<p class="text-2xl">Rich and exotic design that suits your brand</p>
+</div>
+ 
+
+<div class='para'>
+<p class="text-2xl">Web and Mobile app tailor-made for your needs</p>
+</div> 
+
+<div class="para">
+<p  class="text-2xl">Shifting data to cloud using AWS</p>
+</div>
+
+</div>
+</div>
+</div>
+<!-- <hr class="hr"/> -->
+<About />
+
+<Cloud />
 
 <OurWork />
 
-<TechWeUse />
 
-<ContactForm />
+<!-- <TechWeUse /> -->

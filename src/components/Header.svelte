@@ -13,9 +13,23 @@
     padding: 2em;
     width: 100%;
   }
+
+  .logo{
+  display:block;
+  }
+
+   @media screen and (max-width:450px){
+
+       .logo{
+            display: none;
+            }
+   }
+
+
 </style>
 
 <header>
-  <Logo />
+<div class="logo">  <Logo />
+</div>
   <Nav {segment} />
 </header>

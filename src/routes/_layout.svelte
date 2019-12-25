@@ -46,9 +46,12 @@ onMount( ()=>{
   }
 
   main {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    margin: 0 auto;
+    margin:auto;
     max-width: 1400px;
     background-color: white;
     /* padding: 1em 2em; */
@@ -56,12 +59,12 @@ onMount( ()=>{
     width: 100%;
     display: flex;
     flex-direction: column;
-  }
+    font-family: "montserrat"; }
 
   footer {
     color: #AAA;
     font-size: 1em;
-    font-family: Rubik, sans-serif;
+    font-family: montserrat, sans-serif;
     margin: 1em auto;
     max-width: 1400px;
     padding: 1em 2em;

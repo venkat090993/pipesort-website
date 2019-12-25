@@ -1,18 +1,16 @@
 <style>
 
   .sectionB{
-    margin-top: 200px;
+    margin-top: 30px;
     width:100%;
-
-  
   }
 
     h1 {
-    font-weight: 700;
+    font-family: "montserrat";
   }
 
   p {
-    font-size: 1.4em;
+        font-family: "montserrat";
   }
 
   .contain{
@@ -21,8 +19,6 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-
-
   }
 
   .sectionB .contain .item{
@@ -105,17 +101,16 @@ text-align: center;
         margin-bottom: 5px;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 728px) {
 
        h1{
     width:100%;
     font-size: 30px;
   }
 
-      .sectionB{
-        width:100%;
-
-      }
+    .sectionB{
+    width:100%;
+  }
   .contain {
     display: inline-block;
     }
@@ -175,7 +170,7 @@ text-align: center;
 </style>
 
 <div class="sectionB">
-<header>    <h1>Our Works</h1>
+<header>    <h1 class="text-6xl">Our Works</h1>
 </header>
     <div class="contain">
 
@@ -183,15 +178,15 @@ text-align: center;
             <div class="imageSection"></div>
             <div class="contentSection">
                 <div class="content">
-                    <h4> DERMIO</h4>
-                    <p>Chat-bot based HIPAA compliant online consulting app</p>
-                    <div class="logo">
+                    <h4 class="text-xl py-2"> Dermio</h4>
+                    <p class="pb-2 text-base">Chat-bot based HIPAA compliant online consulting app</p>
+                    <div class="logo pb-1">
                     <img class="logoImages" src="/chatbot.png" alt="" />
                     <img class="logoImages" src="/react.png" alt="" />
                     <img class="logoImages" src="/nodejs.png" alt="" />
                     <img class="logoImages" src="/amazon.png" alt="" />
                     </div>
-                    <button class="button">Read More...</button>
+                    <!-- <button class="button">Read More...</button> -->
                 </div>
             </div>
         </div>
@@ -199,32 +194,34 @@ text-align: center;
             <div class="imageSection"></div>
             <div class="contentSection">
                 <div class="content">
-                    <h4> Arokiya</h4>
-                    <p>E-commerce solutions for a UK based company</p>
+                    <h4 class="text-xl py-2"> Arokiya</h4>
+                    <p class="pb-2 text-base">E-commerce solutions for a UK based company</p>
                     <br />
-                    <div class="logo">
+                    <div class="logo pb-1">
                     <img class="logoImages" src="/react.png" alt="" />
                     <img class="logoImages" src="/gatsby.png" alt="" />
                     <img class="logoImages" src="/nodejs.png" alt="" />
                     <img class="logoImages" src="/amazon.png" alt="" />
                     </div>
-                    <button class="button">Read More...</button>
+                    <!-- <button class="button">Read More...</button> -->
                 </div>
             </div>
         </div>
+
         <div class="item">
             <div class="imageSection"></div>
             <div class="contentSection">
                 <div class="content">
-                    <h4> RHACC</h4>
-                    <p>Edu-tech project for an insttitute in UK</p><br />
-                    <div class="logo">
+                    <h4 class="text-xl py-2"> RHACC</h4>
+                    <p class="pb-2 text-base">Edu-tech project for an university in UK</p>
+                    <br />
+                    <div class="logo pb-1">
                     <img class="logoImages" src="/react.png" alt="" />
                     <img class="logoImages" src="/gatsby.png" alt="" />
                     <img class="logoImages" src="/nodejs.png" alt="" />
                     <img class="logoImages" src="/amazon.png" alt="" />
                     </div>
-                    <button class="button">Read More...</button>
+                    <!-- <button class="button">Read More...</button> -->
                 </div>
             </div>
         </div>

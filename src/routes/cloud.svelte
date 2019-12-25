@@ -120,9 +120,9 @@ position: absolute;
 </svelte:head>
 
 <div class="home-container">
-  <div class="home-copy">
-<h1> Shift your data to <span class="seven">Cloud</span><br /> With Pipesort</h1>  
-  <p>Experienced <a href="/">Reactjs</a> developers rooting for <a href="/">Sveltejs</a>.
+  <div class="home-copy py-16">
+<h1 class="text-6xl p-2"> Shift your data to <span class="text-6xl" style="color:#fd6378">Cloud</span><br /> With Pipesort</h1>  
+  <p class="py-5">Experienced <a href="/">Reactjs</a> developers rooting for <a href="/">Sveltejs</a>.
   </div>
   <figure>
     <img alt='Home page image' src='cloud.svg'>
