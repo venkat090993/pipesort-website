@@ -80,9 +80,13 @@ onMount( ()=>{
     <slot></slot>
   </main>
 
-  <footer>
-  <div>
-  <p>A division of <a href="/">Codebrahma</a></p>
-  <p>copyright@2019 Pipesort Technologies</p></div>
-  </footer>
+  <footer class="flex flex-row">
+  <div class="w-1/2 h-64 bg-black flex flex-col align-middle justify-center">
+  <p><a href="/">70.com</a></p>
+  <p>copyright@2019 70.com</p></div>
+
+  <div class="w-1/2 h-64 bg-black flex flex-col align-middle justify-center">
+  <p><a href="/contactform">Contact us</a></p>
+  </div>
+    </footer>
 </div>

@@ -1,6 +1,7 @@
 <script>
   import Logo from './Logo.svelte'
   import Nav from './Nav.svelte'
+  
 
   export let segment
 </script>
@@ -16,6 +17,15 @@
 
   .logo{
   display:block;
+  padding-left:5rem;
+  padding-top:10px;
+  }
+
+  .para{
+ 
+  display:block;
+  padding-left:1px;
+  padding-top:28px;
   }
 
    @media screen and (max-width:450px){
@@ -28,8 +38,10 @@
 
 </style>
 
-<header>
-<div class="logo">  <Logo />
+<header class="flex flex-row justify-between">
+<div class="logo"><Logo />
 </div>
-  <Nav {segment} />
+
+<!-- <p class="text-2xl para">.com</p> -->
+<Nav {segment} />
 </header>

@@ -4,6 +4,7 @@ import TechWeUse from './techPage.svelte';
 import ContactForm from "./contactform.svelte";
 import About from "./about.svelte";
 import Cloud from "./cloudInternal.svelte";
+
 </script>
 
 <style>
@@ -46,6 +47,11 @@ font-size: 1.5rem;
     position: absolute;
     text-align: center;
     margin:auto;
+
+}
+
+.base h1{
+    font-size: 6rem;
 }
 
 .para{
@@ -88,13 +94,13 @@ margin-top:100px;
 visibility: hidden; 
     }
     40%,90%{
-        bottom:48%;
+        bottom:50%;
         opacity: 1;
         visibility: visible
     }
       95%,100%{
         opacity: 0;
-        bottom:48%;
+        bottom:50%;
 visibility: hidden; 
     }
 } 
@@ -106,13 +112,13 @@ visibility: hidden;
 visibility: hidden; 
     }
     40%,60%{
-        bottom:48%;
+        bottom:50%;
         opacity: 1;
         visibility: visible
     }
       70%,100%{
         opacity: 1;
-        bottom:48%;
+        bottom:50%;
         visibility: visible;
     }
 
@@ -151,17 +157,17 @@ margin-top: -37rem;
 @keyframes bodyAnimation{
     0%, 30%{
         opacity: 0;
-        top:50%;
+        top:45%;
 visibility: hidden; 
     }
     40%,90%{
-        top:55%;
+        top:50%;
         opacity: 1;
         visibility: visible
     }
       95%,100%{
         opacity: 0;
-        top:55%;
+        top:50%;
 visibility: hidden; 
     }
 } 
@@ -169,17 +175,17 @@ visibility: hidden;
 @keyframes bodyAnimation3 {
 0%, 30%{
         opacity: 0;
-        top:50%;
+        top:45%;
 visibility: hidden; 
     }
     40%,60%{
-        top:55%;
+        top:50%;
         opacity: 1;
         visibility: visible
     }
       70%,100%{
         opacity: 1;
-        top:55%;
+        top:50%;
         visibility: visible
     }
 
@@ -190,7 +196,7 @@ visibility: hidden;
 
 
  
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     .home-container {
       flex-direction: column;
       flex:1;
@@ -199,6 +205,9 @@ visibility: hidden;
       margin:auto;
     }
 
+.base h1{
+    font-size: 3rem;
+}
 
 
 .para{
@@ -318,6 +327,10 @@ justify-content: center;
 align-items: center;
 }
 
+.base h1{
+    font-size: 3rem;
+}
+
 .para{
     position: absolute;
     text-align: center;
@@ -429,13 +442,15 @@ visibility: hidden;
   <title>Pipesort Technologies</title>
 </svelte:head>
 
-<div class="home-container flex flex-col lg:mt-24 lg:-mb-20 justify-start items-center lg:w-full md:w-full md:-mb-20 md:mt-24 sm: w-full sm: h-full">
+<div style="background: url('grey.png')" class=" shadow-xl flex flex-col justify-start items-center lg:w-full lg: pb-10 md:w-full sm: w-full sm: h-full">
 
-<div class="lg:w-20 lg:h-20 lg:bg-red-800 lg:mt-0 lg:logo md:w-20 md:h-20  md:mt-0 md:bg-red-800 md:logo sm: w-20 sm: h-20 sm: bg-red-800 sm: logo sm: mt-16"></div>
+<div class="home-container flex flex-col lg:-mb-20 justify-start items-center lg:w-full md:w-full md:-mb-20 md:mt-24 sm: w-full sm: h-full">
 
-<div class="w-1/2 flex flex-col justify-start h-1/2 items-center md:-mt-10 sm: -mt-10 sm: h-1/2">
+<div class="lg:w-20 lg:h-20 lg:bg-red-800 lg:-mt-10 lg:logo md:w-20 md:h-20  md:mt-20 md:bg-red-800 md:logo sm: w-20 sm: h-20 sm: bg-red-800 sm: logo sm: mt-16"><img src="701logo.svg" alt="logo" /></div>
 
-<p class="lg:text-center lg:w-full lg:text-4xl lg:font-bold md:text-4xl md:font-bold md:text-center sm: text-2xl sm: w-64  sm: mt-20 sm: text-2xl sm: font-bold">We're experts in</p>
+<div class="w-1/2 flex flex-col justify-start h-1/2 items-center lg:-mt-12 md:-mt-20 sm: -mt-10 sm: h-1/2">
+
+<p class="lg:text-center lg:w-full lg:text-5xl lg:mb-12 lg:font-extrabold md:text-3xl md:font-bold md:text-center md:w-64 sm: text-2xl sm: w-64  sm: mt-20 sm: text-2xl sm: font-bold">We're experts in</p>
 
 <div class="inner-container sm: w-screen m-auto">
 
@@ -474,12 +489,13 @@ visibility: hidden;
 </div>
 </div>
 </div>
+
+</div>
 <!-- <hr class="hr"/> -->
 <About />
 
 <Cloud />
 
 <OurWork />
-
 
 <!-- <TechWeUse /> -->

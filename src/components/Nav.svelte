@@ -45,6 +45,7 @@
 
   .selected::before {
     background: #fd6378;
+    /* background:#24d0c5; */
   }
 
   @media screen and (max-width:450px){
