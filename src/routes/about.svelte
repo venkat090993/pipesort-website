@@ -23,8 +23,9 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 
 .imagephone{
 
-    height:100vh;
-    width: 100vh;
+    height:500px;
+    width:100%;
+
     
     }
 
@@ -164,8 +165,8 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 <!--right column-->
 
 <div class=" lg:flex lg:flex-col lg:w-1/2 md:mt-10 md:m-auto  lg:row right sm: w-10/12 sm: m-auto">
-<div class="lg:flex lg:flex-col lg:w-full lg:h-full lg:align-middle lg:justify-center md:flex md:flex-col md:align-middle md:w-full md:m-auto md:justify-center md:ml-16 sm: w-10/12 sm: ml-24 sm: m-auto">
-<img  loading="lazy" src="./ph.png" alt="bannerImage" class="lg:mt-64 xl:mt-40 md: -ml-16 lg:w-full lg:h-full md:w-full md:h-1/2 sm: mt-10  z-10 " />
+<div class="lg:flex lg:flex-col lg:w-full lg:h-full lg:align-middle lg:justify-center md:flex md:flex-col md:align-middle md:w-full md:m-auto md:justify-center md:align-middle sm: w-10/12 sm: ml-24 sm: m-auto">
+<img  loading="lazy" src="./pho.png" alt="bannerImage" class="lg:w-4/6 lg:h-full lg:m-auto  md:w-1/2 md:h-1/2 md:ml-40 md:mt-0 md:h-full sm: mt-10 sm: -ml-20 z-10 xl:mt-40 " />
 </div>
 
 </div>
