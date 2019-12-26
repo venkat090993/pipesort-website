@@ -28,7 +28,7 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
     
     }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
 
     .image{
         margin-top: 10px;
@@ -165,7 +165,7 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 
 <div class=" lg:flex lg:flex-col lg:w-1/2 md:mt-10 md:m-auto  lg:row right sm: w-10/12 sm: m-auto">
 <div class="lg:flex lg:flex-col lg:w-full lg:h-full lg:align-middle lg:justify-center md:flex md:flex-col md:align-middle md:w-full md:m-auto md:justify-center md:ml-16 sm: w-10/12 sm: m-auto">
-<img src="./desktop.svg" alt="bannerImage" class="imagephone lg:w-full lg:h-screen lg:mt-20 md:w-full md:h-screen z-10" />
+<img  loading="lazy" src="./desktop.svg" alt="bannerImage" class="imagephone lg:w-full lg:h-screen lg:mt-20 md:w-full md:h-screen z-10" />
 </div>
 
 </div>

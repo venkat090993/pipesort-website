@@ -52,7 +52,7 @@ onMount( ()=>{
     align-items: center;
     position: relative;
     margin:auto;
-    max-width: 1400px;
+    /* max-width: 1400px; */
     background-color: white;
     /* padding: 1em 2em; */
     box-sizing: border-box;
@@ -65,9 +65,15 @@ onMount( ()=>{
     color: #AAA;
     font-size: 1em;
     font-family: montserrat, sans-serif;
-    max-width: 1400px;
     text-align: center;
     width: 100%;
+  }
+
+  @media screen and (min-width:768){
+      footer{
+          width:100%;
+          background: white;
+      }
   }
 </style>
 
@@ -77,7 +83,7 @@ onMount( ()=>{
   <main>
     <slot></slot>
   </main>
-  <footer class="flex flex-row">
+  <footer class="flex flex-row justify-center align-middle">
 
   <div class="w-1/2 h-56 bg-black flex flex-col align-middle justify-center">
   <p><a href="/">70.com</a></p>
