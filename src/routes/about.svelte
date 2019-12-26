@@ -164,8 +164,8 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 <!--right column-->
 
 <div class=" lg:flex lg:flex-col lg:w-1/2 md:mt-10 md:m-auto  lg:row right sm: w-10/12 sm: m-auto">
-<div class="lg:flex lg:flex-col lg:w-full lg:h-full lg:align-middle lg:justify-center md:flex md:flex-col md:align-middle md:w-full md:m-auto md:justify-center md:ml-16 sm: w-10/12 sm: m-auto">
-<img  loading="lazy" src="./ph.png" alt="bannerImage" class="lg:mt-64 xl:mt-40 md: -ml-16 lg:w-full lg:h-full md:w-full md:h-1/2 sm: mt-10 z-10 " />
+<div class="lg:flex lg:flex-col lg:w-full lg:h-full lg:align-middle lg:justify-center md:flex md:flex-col md:align-middle md:w-full md:m-auto md:justify-center md:ml-16 sm: w-10/12 sm: ml-24 sm: m-auto">
+<img  loading="lazy" src="./ph.png" alt="bannerImage" class="lg:mt-64 xl:mt-40 md: -ml-16 lg:w-full lg:h-full md:w-full md:h-1/2 sm: mt-10  z-10 " />
 </div>
 
 </div>
