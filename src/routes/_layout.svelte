@@ -65,9 +65,7 @@ onMount( ()=>{
     color: #AAA;
     font-size: 1em;
     font-family: montserrat, sans-serif;
-    margin: 1em auto;
     max-width: 1400px;
-    padding: 1em 2em;
     text-align: center;
     width: 100%;
   }
@@ -79,14 +77,15 @@ onMount( ()=>{
   <main>
     <slot></slot>
   </main>
-
   <footer class="flex flex-row">
-  <div class="w-1/2 h-64 bg-black flex flex-col align-middle justify-center">
+
+  <div class="w-1/2 h-56 bg-black flex flex-col align-middle justify-center">
   <p><a href="/">70.com</a></p>
   <p>copyright@2019 70.com</p></div>
 
-  <div class="w-1/2 h-64 bg-black flex flex-col align-middle justify-center">
+  <div class="w-1/2 h-56 bg-black flex flex-col align-middle justify-center">
   <p><a href="/contactform">Contact us</a></p>
   </div>
+
     </footer>
 </div>

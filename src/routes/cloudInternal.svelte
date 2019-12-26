@@ -5,7 +5,7 @@
 .box{
 border: 1px solid black;
 }
-.box:hover{ transition: 1s ease-in;
+.box:hover{ transition: 0.5s ease-in;
           border: 1px solid rgb(252, 252, 255);
           box-shadow: 5px 5px 2px  rgb(139, 138, 138);
           }

@@ -446,7 +446,7 @@ visibility: hidden;
 
 <div class="home-container flex flex-col lg:-mb-20 justify-start items-center lg:w-full md:w-full md:-mb-20 md:mt-24 sm: w-full sm: h-full">
 
-<div class="lg:w-20 lg:h-20 lg:bg-red-800 lg:-mt-10 lg:logo md:w-20 md:h-20  md:mt-20 md:bg-red-800 md:logo sm: w-20 sm: h-20 sm: bg-red-800 sm: logo sm: mt-16"><img src="701logo.svg" alt="logo" /></div>
+<div class="lg:w-20 lg:h-20 lg:bg-red-800 lg:-mt-10 lg:logo md:w-20 md:h-20  md:mt-20 md:bg-red-800 md:logo sm: w-20 sm: h-20 sm: bg-red-800 sm: logo sm: mt-16"><img src="702logo.svg" alt="logo" /></div>
 
 <div class="w-1/2 flex flex-col justify-start h-1/2 items-center lg:-mt-12 md:-mt-20 sm: -mt-10 sm: h-1/2">
 

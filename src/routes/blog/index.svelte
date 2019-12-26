@@ -33,8 +33,8 @@
   <title>Blog</title>
 </svelte:head>
 
-<div class="container">
-  <h1>Blog</h1>
+<div class="container w-11/12 m-auto mb-16">
+  <p class="text-4xl font-extrabold py-5 mb-10">Blogs</p>
   {#each posts as post, index}
     {#if index}
       <hr />

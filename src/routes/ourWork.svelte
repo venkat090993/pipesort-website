@@ -3,6 +3,7 @@
   .sectionB{
     margin-top: 30px;
     width:100%;
+    margin-bottom: 30px;
   }
 
     h1 {
@@ -30,7 +31,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-border: 1px solid white;
+         border: 1px solid rgb(204, 201, 201);
+          box-shadow: 2px 2px 2px  rgb(204, 201, 201);
 
        
   }
@@ -39,7 +41,7 @@ border: 1px solid white;
       
           transition: 0.5s ease-in;
           border: 1px solid rgb(204, 201, 201);
-          box-shadow: 2px 2px 2px  rgb(204, 201, 201);
+          box-shadow: 6px 6px 6px  rgb(204, 201, 201);
 
   }
   
@@ -57,10 +59,8 @@ border: 1px solid white;
     height: 50%;
     width:100%;
     margin:auto;
-    background-color: #fd6378;
-    border:1px solid blanchedalmond;
-    padding:5px;
   }
+
 
 .contentSection{
     height: 50%;
@@ -130,8 +130,13 @@ text-align: center;
 
    @media only screen and (max-width: 450px) {
 
+       .image{
+           width:100px;
+       }
+
        .sectionB{
-        width:100%;
+        width:90%;
+        margin: auto;
 
       }
   .contain {
@@ -169,16 +174,18 @@ text-align: center;
 
 </style>
 
-<div class="sectionB">
-<header>    <h1 class="text-6xl">Our Works</h1>
+<div class="sectionB sm: pt-10">
+<header>    <h1 class="text-6xl sm: pb-5">Our Works</h1>
 </header>
     <div class="contain">
 
         <div class="item">
-            <div class="imageSection"></div>
+            <div class="imageSection bg-blue-100 sm: h-2/6">
+            <img src="https://s3.amazonaws.com/dermio-admin/images/dermio-logo-lg.png" class="lg:h-1/2 w-full p-2 my-12 sm: my-20 " alt="dermio" />
+            </div>
             <div class="contentSection">
                 <div class="content">
-                    <h4 class="text-xl py-2"> Dermio</h4>
+                    <h4 class="text-2xl pb-5 pt-1 font-bold"> DERMIO</h4>
                     <p class="pb-2 text-base">Chat-bot based HIPAA compliant online consulting app</p>
                     <div class="logo pb-1">
                     <img class="logoImages" src="/chatbot.png" alt="" />
@@ -191,10 +198,12 @@ text-align: center;
             </div>
         </div>
         <div class="item">
-            <div class="imageSection"></div>
+            <div class="imageSection bg-black shadow-xl">
+            <img src="ct-full.svg" class="lg:h-full lg:w-full lg:p-2 lg:m-0 bg-black sm: my-16 sm: shadow-xl sm: p-2" alt="Arokiya" />
+            </div>
             <div class="contentSection">
                 <div class="content">
-                    <h4 class="text-xl py-2"> Arokiya</h4>
+                    <h4 class="text-2xl pb-5 pt-1 font-bold"> AROKIYA</h4>
                     <p class="pb-2 text-base">E-commerce solutions for a UK based company</p>
                     <br />
                     <div class="logo pb-1">
@@ -209,10 +218,12 @@ text-align: center;
         </div>
 
         <div class="item">
-            <div class="imageSection"></div>
+            <div class="imageSection">
+            <img src="RHACC-logo-dark.svg" class="h-full w-full p-2 m-0 bg-gray-200 " alt="RHACC" />
+            </div>
             <div class="contentSection">
                 <div class="content">
-                    <h4 class="text-xl py-2"> RHACC</h4>
+                    <h4 class="text-2xl font-bold pb-5 pt-1"> RHACC</h4>
                     <p class="pb-2 text-base">Edu-tech project for an university in UK</p>
                     <br />
                     <div class="logo pb-1">

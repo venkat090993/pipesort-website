@@ -138,7 +138,7 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 
 <div class=" lg:flex lg:flex-row lg:w-full lg:my-2 md:flex md:flex-row md:w-full md:py-2 shadow-md md:m-auto sm: m-auto  sm: flex sm: flex-row sm: w-full sm: py-2" >
 
-<div class="lg:1/12 lg:bg-white-300 md:w-2/6 md:my-2 md:py-2 md:px-2 sm: w-1/5 sm: mt-8 ">
+<div class="z-20 lg:1/12 lg:bg-white-300 md:w-2/6 md:my-2 md:py-2 md:px-2 sm: w-1/5 sm: mt-8 ">
 <img class="lg:w-3/5 lg:h-1/2 md:w-1/2 md:w-1/2 md:h-1/2 m-auto align-middle sm: w-full sm: px-2" src={item.logo} alt="logo" />
 </div>
 
@@ -164,8 +164,8 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 <!--right column-->
 
 <div class=" lg:flex lg:flex-col lg:w-1/2 md:mt-10 md:m-auto  lg:row right sm: w-10/12 sm: m-auto">
-<div class="lg:flex lg:flex-col lg:w-full lg:align-middle lg:justify-center md:flex md:flex-col md:align-middle md:w-full md:m-auto md:justify-center md:ml-16 sm: w-10/12 sm: m-auto">
-<img src="./desktop.svg" alt="bannerImage" class="imagephone md:w-full md:h-screen" />
+<div class="lg:flex lg:flex-col lg:w-full lg:h-full lg:align-middle lg:justify-center md:flex md:flex-col md:align-middle md:w-full md:m-auto md:justify-center md:ml-16 sm: w-10/12 sm: m-auto">
+<img src="./desktop.svg" alt="bannerImage" class="imagephone lg:w-full lg:h-screen lg:mt-20 md:w-full md:h-screen z-10" />
 </div>
 
 </div>

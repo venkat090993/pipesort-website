@@ -88,7 +88,4 @@
   <a class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
   <a rel=prefetch class='{segment === "cloud" ? "selected" : ""}' href='contactform'>contact</a>
   <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a>
-  <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='about'>about</a>
-
-
 </nav>
