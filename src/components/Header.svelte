@@ -28,12 +28,44 @@
   padding-top:28px;
   }
 
+  .nav{
+      width:100%
+  }
+
+       @media screen and (max-width:768px){
+
+       .logo{
+            display: block;
+              padding-left:2rem;
+  padding-top:10px;
+            }
+   }
+
+     @media screen and (max-width:560px){
+
+              .logo{
+            display: block;
+              padding-left:1rem;
+  padding-top:10px;
+            }
+   }
+
    @media screen and (max-width:450px){
+
+       .nav{
+           width:100%;
+           margin: auto;
+           margin-left: -5px;
+
+       }
 
        .logo{
             display: none;
             }
    }
+
+ 
+
 
 
 </style>
@@ -43,5 +75,7 @@
 </div>
 
 <!-- <p class="text-2xl para">.com</p> -->
+<div class="nav">
 <Nav {segment} />
+</div>
 </header>

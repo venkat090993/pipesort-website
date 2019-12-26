@@ -96,8 +96,8 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 
 {#each item.tech as tech}
 
-<div class="inline-block my-2">
-<p class="text-base  px-1 p-1 bg-blue-200 m-1">{tech}</p>
+<div class="lg:inline-block lg:my-1 lg:my-1 md:inline-block md:my-1 md:my-1 sm: inline-block sm: my-0">
+<p class="lg:text-base lg:px-1 lg:p-1 lg:bg-blue-200 lg:m-1 md:text-base md:px-1 md:p-1 md:bg-blue-200 md:m-1 sm: text-xs sm: px-1 sm: p-1 sm: bg-blue-200 sm: m-1">{tech}</p>
 </div>
 
 {/each}
@@ -110,8 +110,8 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 <!--right column-->
 
 <div class=" lg:flex lg:flex-col lg:w-1/2 lg:row right sm: w-10/12 sm: m-auto">
-<div class="flex flex-col align-middle justify-center sm: w-10/12 sm: m-auto sm: b">
-<img src="./pipesortimage.png" alt="bannerImage" class="image" />
+<div class="flex flex-col w-full align-middle justify-center sm: w-10/12 sm: m-auto">
+<img src="./lap.png" alt="bannerImage" class="image" />
 </div>
 
 </div>
@@ -150,8 +150,8 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 
 {#each item.tech as tech}
 
-<div class="inline-block my-2">
-<p class="text-base  px-1 p-1 bg-blue-200 m-1">{tech}</p>
+<div class="lg:inline-block lg:my-1 lg:my-1 md:inline-block md:my-1 md:my-1 sm: inline-block sm: my-0">
+<p class="lg:text-base lg:px-1 lg:p-1 lg:bg-blue-200 lg:m-1 md:text-base md:px-1 md:p-1 md:bg-blue-200 md:m-1 sm: text-xs sm: px-1 sm: p-1 sm: bg-blue-200 sm: m-1">{tech}</p>
 </div>
 
 {/each}
@@ -163,9 +163,9 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 
 <!--right column-->
 
-<div class=" lg:flex lg:flex-col lg:w-1/2 lg:row right sm: w-10/12 sm: m-auto">
-<div class="flex flex-col align-middle justify-center sm: w-10/12 sm: m-auto">
-<img src="./desktop.svg" alt="bannerImage" class="imagephone" />
+<div class=" lg:flex lg:flex-col lg:w-1/2 md:mt-10 md:m-auto  lg:row right sm: w-10/12 sm: m-auto">
+<div class="lg:flex lg:flex-col lg:w-full lg:align-middle lg:justify-center md:flex md:flex-col md:align-middle md:w-full md:m-auto md:justify-center md:ml-16 sm: w-10/12 sm: m-auto">
+<img src="./desktop.svg" alt="bannerImage" class="imagephone md:w-full md:h-screen" />
 </div>
 
 </div>

@@ -48,16 +48,7 @@
     /* background:#24d0c5; */
   }
 
-  @media screen and (max-width:450px){
-      nav{
-          width:100%;
-          display: flex;
-          flex-direction: row;
-          justify-content: flex-end;
-          align-items: flex-end;
-          box-sizing: border-box;
-      }
-  }
+
 
     @media screen and (max-width:370px){
 
@@ -65,7 +56,7 @@
           width:100%;
           display: flex;
           flex-direction: row;
-          justify-content: flex-end;
+          justify-content: center;
           align-items: flex-end;
           margin:0 5px;
           box-sizing: border-box;
@@ -79,6 +70,18 @@
     font-size: 12px;
   }
     }
+
+      @media screen and (max-width:425px){
+       nav{
+          width:100%;
+          display: flex;
+          flex-direction: row;
+          justify-content:center;
+          align-items: flex-end;
+          margin:0 5px;
+          box-sizing: border-box;
+
+      }}
 </style>
 
 <nav>
