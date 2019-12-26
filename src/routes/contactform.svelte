@@ -56,7 +56,7 @@
                                         </div>    
 
                                           
-                                      <div class="flex items-center justify-between">
+                                      <div class="flex items-center justify-between pb-4">
                                         <button class="bg-blue-700 hover:bg-blue-dark text-white font-bold w-full h-12 py-2 px-4  rounded focus:outline-none focus:shadow-outline" type="button">
                                           Submit
                                         </button>

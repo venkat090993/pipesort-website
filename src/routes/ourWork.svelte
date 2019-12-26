@@ -1,9 +1,8 @@
 <style>
 
   .sectionB{
-    margin-top: 30px;
     width:100%;
-    margin-bottom: 30px;
+    margin-bottom: 5rem;
   }
 
     h1 {
@@ -175,13 +174,13 @@ text-align: center;
 </style>
 
 <div class="sectionB sm: pt-10">
-<header>    <h1 class="text-6xl sm: pb-5">Our Works</h1>
+<header>    <h1 class="text-6xl sm: pb-2">Our Works</h1>
 </header>
     <div class="contain">
 
         <div class="item">
             <div class="imageSection bg-blue-100 sm: h-2/6">
-            <img src="https://s3.amazonaws.com/dermio-admin/images/dermio-logo-lg.png" class="lg:h-1/2 w-full p-2 my-12 sm: my-20 " alt="dermio" />
+            <img src="https://s3.amazonaws.com/dermio-admin/images/dermio-logo-lg.png" class="lg:h-1/2 w-full p-4 lg:mt-16 xl:mt-12 sm: my-20 " alt="dermio" />
             </div>
             <div class="contentSection">
                 <div class="content">
@@ -199,7 +198,7 @@ text-align: center;
         </div>
         <div class="item">
             <div class="imageSection bg-black shadow-xl">
-            <img src="ct-full.svg" class="lg:h-full lg:w-full lg:p-2 lg:m-0 bg-black sm: my-16 sm: shadow-xl sm: p-2" alt="Arokiya" />
+            <img src="ct-full.svg" class="h-full w-full p-4 mt-0 bg-black shadow-xl sm: mt-0" alt="Arokiya" />
             </div>
             <div class="contentSection">
                 <div class="content">
@@ -219,7 +218,7 @@ text-align: center;
 
         <div class="item">
             <div class="imageSection">
-            <img src="RHACC-logo-dark.svg" class="h-full w-full p-2 m-0 bg-gray-200 " alt="RHACC" />
+            <img src="RHACC-logo-dark.svg" class="h-full w-full p-4 m-0 bg-gray-200 " alt="RHACC" />
             </div>
             <div class="contentSection">
                 <div class="content">

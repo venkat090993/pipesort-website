@@ -27,14 +27,18 @@
   hr {
     margin: 60px auto;
   }
+  .container{
+      background:#1a202c;
+      color:white;
+  }
 </style>
 
 <svelte:head>
   <title>Blog</title>
 </svelte:head>
 
-<div class="container w-11/12 m-auto mb-16">
-  <p class="text-4xl font-extrabold py-5 mb-10">Blogs</p>
+<div class="container w-11/12 m-auto mb-16 rounded-lg text-gray-900"> 
+<div class="pl-5 h-auto pb-10"><p class="text-4xl font-extrabold py-5 mb-10">Blogs</p>
   {#each posts as post, index}
     {#if index}
       <hr />
@@ -48,5 +52,6 @@
         <span class="post-item-date">— {post.printDate}</span>
       </div>
     </div>
-  {/each}
+  {/each}</div>
+  
 </div>

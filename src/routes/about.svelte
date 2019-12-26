@@ -24,7 +24,7 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 .imagephone{
 
     height:100vh;
-    width: 100%;
+    width: 100vh;
     
     }
 
@@ -46,7 +46,7 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 @media screen and (max-width: 450px){
 
     .image{
-    height: 300px;
+    height: 100px;
 }
 
 .imagephone{
@@ -110,8 +110,8 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 <!--right column-->
 
 <div class=" lg:flex lg:flex-col lg:w-1/2 lg:row right sm: w-10/12 sm: m-auto">
-<div class="flex flex-col w-full align-middle justify-center sm: w-10/12 sm: m-auto">
-<img src="./lap.png" alt="bannerImage" class="image" />
+<div class="flex flex-col w-full align-middle justify-center sm: w-10/12 sm: h-1/2 sm: m-auto">
+<img src="./lap.png" alt="bannerImage" class="lg:w-full lg:h-full lg:mt-20 md:w-full md:h-screen z-10" />
 </div>
 
 </div>
@@ -132,7 +132,7 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 <div class="lg:container lg:flex lg:flex-col lg:mt-10 md:container md:flex md:flex-col md:mt-10 sm: container sm: flex sm: flex-col sm: mt-10 ">
 <div class="lg:flex lg:flex-row-reverse lg:flex-row lg:w-full md:flex md:flex-col md: w-full sm: flex-col  sm: w-full">
 <!--left column-->
-<div class="lg:flex lg:flex-col lg:w-1/2 md:flex md:flex-col md:w-full sm: flex sm: flex-col sm: w-full">
+<div class="z-20 lg:flex lg:flex-col lg:w-1/2 md:flex md:flex-col md:w-full sm: flex sm: flex-col sm: w-full">
 
 {#each mobileItemList as item}
 
@@ -165,7 +165,7 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 
 <div class=" lg:flex lg:flex-col lg:w-1/2 md:mt-10 md:m-auto  lg:row right sm: w-10/12 sm: m-auto">
 <div class="lg:flex lg:flex-col lg:w-full lg:h-full lg:align-middle lg:justify-center md:flex md:flex-col md:align-middle md:w-full md:m-auto md:justify-center md:ml-16 sm: w-10/12 sm: m-auto">
-<img  loading="lazy" src="./desktop.svg" alt="bannerImage" class="imagephone lg:w-full lg:h-screen lg:mt-20 md:w-full md:h-screen z-10" />
+<img  loading="lazy" src="./new-arokiya-mobile.png" alt="bannerImage" class="lg:mt-64 xl:mt-40 lg:w-full lg:h-full md:w-full md:h-1/2 sm: mt-10 z-10 " />
 </div>
 
 </div>

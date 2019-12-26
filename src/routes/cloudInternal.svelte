@@ -12,7 +12,7 @@ border: 1px solid black;
 </style>
 
 
-<div class="lg:container lg:flex lg:flex-col lg:justify-center lg:align-middle lg:w-screen lg:z-20 lg:mt-20 md:container md:flex md:flex-col md:justify-center md:align-middle md:w-screen md:z-20 md:mt-10 sm: container sm: flex sm: flex-col sm: justify-center sm: align-middle sm: w-screen sm: z-20 sm: mt-0">
+<div class="lg:container lg:flex lg:flex-col lg:justify-center lg:align-middle lg:w-screen lg:z-20 lg:mt-10 md:container md:flex md:flex-col md:justify-center md:align-middle md:w-screen md:z-20 md:mt-10 sm: container sm: flex sm: flex-col sm: justify-center sm: align-middle sm: w-screen sm: z-20 sm: mt-0">
 <!-- outerdiv -->
 <div>
 <!-- container text div -->
@@ -22,7 +22,7 @@ border: 1px solid black;
 <p class="lg:text-xl lg:text-center md:text-xl md:text-center sm: text-base sm: text-center sm: pt-5">As cloud consultants, we access your readiness to adopt to cloud, provide you with cloud adoption roadmap and shift your data</p>
 </div>
 
-<div class="lg:w-full md: w-full text-white lg:pb-10 lg:mt-10 lg:flex lg:flex-row lg:justify-center lg:align-middle md:flex md:flex-row md:justify-center md:align-middle sm: flex-row">
+<div class="lg:w-full md: w-full text-white lg:pb-3 lg:mt-10 lg:flex lg:flex-row lg:justify-center lg:align-middle md:flex md:flex-row md:justify-center md:align-middle sm: flex-row">
 
 <div class="lg:flex lg:flex-col lg:align-middle lg:justify-center lg:m-5 lg:px-10 lg:py-10 lg:text-center lg:w-5/12 lg:px-12 lg:h-auto lg:box md:flex md:flex-col md:align-middle md:justify-center md:m-5 md:p-2 md:text-center md:w-6/12 md:px-12 md:box sm: flex sm: flex-col sm: align-middle sm: justify-center  sm: p-10 sm: mt-5 sm: text-center sm: w-10/12 sm: m-auto  sm: box bg-black bg-gray-900 ">
 
