@@ -442,7 +442,7 @@ visibility: hidden;
   <title>70.com</title>
 </svelte:head>
 
-<div style="background: url('grey.png')" class=" shadow-xl flex flex-col justify-start items-center lg:w-full lg: pb-10 md:w-full sm: w-full sm: h-full">
+<div loading="lazy" style="background: url('grey.png')" class=" shadow-xl flex flex-col justify-start items-center lg:w-full lg: pb-10 md:w-full sm: w-full sm: h-full">
 
 <div class="home-container flex flex-col lg:-mb-20 justify-start items-center lg:w-full md:w-full md:-mb-20 md:mt-24 sm: w-full sm: h-full">
 

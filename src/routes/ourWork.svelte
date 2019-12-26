@@ -180,17 +180,17 @@ text-align: center;
 
         <div class="item">
             <div class="imageSection bg-blue-100 sm: h-2/6">
-            <img src="https://s3.amazonaws.com/dermio-admin/images/dermio-logo-lg.png" class="lg:h-1/2 w-full p-4 lg:mt-16 xl:mt-12 sm: my-20 " alt="dermio" />
+            <img loading="lazy" src="https://s3.amazonaws.com/dermio-admin/images/dermio-logo-lg.png" class="lg:h-1/2 w-full p-4 lg:mt-16 xl:mt-12 sm: my-20 " alt="dermio" />
             </div>
             <div class="contentSection">
                 <div class="content">
                     <h4 class="text-2xl pb-5 pt-1 font-bold"> DERMIO</h4>
                     <p class="pb-2 text-base">Chat-bot based HIPAA compliant online consulting app</p>
                     <div class="logo pb-1">
-                    <img class="logoImages" src="/chatbot.png" alt="" />
-                    <img class="logoImages" src="/react.png" alt="" />
-                    <img class="logoImages" src="/nodejs.png" alt="" />
-                    <img class="logoImages" src="/amazon.png" alt="" />
+                    <img loading="lazy" class="logoImages" src="/chatbot.png" alt="" />
+                    <img loading="lazy" class="logoImages" src="/react.png" alt="" />
+                    <img loading="lazy" class="logoImages" src="/nodejs.png" alt="" />
+                    <img loading="lazy" class="logoImages" src="/amazon.png" alt="" />
                     </div>
                     <!-- <button class="button">Read More...</button> -->
                 </div>
@@ -206,10 +206,10 @@ text-align: center;
                     <p class="pb-2 text-base">E-commerce solutions for a UK based company</p>
                     <br />
                     <div class="logo pb-1">
-                    <img class="logoImages" src="/react.png" alt="" />
-                    <img class="logoImages" src="/gatsby.png" alt="" />
-                    <img class="logoImages" src="/nodejs.png" alt="" />
-                    <img class="logoImages" src="/amazon.png" alt="" />
+                    <img loading="lazy" class="logoImages" src="/react.png" alt="" />
+                    <img loading="lazy" class="logoImages" src="/gatsby.png" alt="" />
+                    <img loading="lazy" class="logoImages" src="/nodejs.png" alt="" />
+                    <img loading="lazy" class="logoImages" src="/amazon.png" alt="" />
                     </div>
                     <!-- <button class="button">Read More...</button> -->
                 </div>
@@ -218,7 +218,7 @@ text-align: center;
 
         <div class="item">
             <div class="imageSection">
-            <img src="RHACC-logo-dark.svg" class="h-full w-full p-4 m-0 bg-gray-200 " alt="RHACC" />
+            <img loading="lazy" src="RHACC-logo-dark.svg" class="h-full w-full p-4 m-0 bg-gray-200 " alt="RHACC" />
             </div>
             <div class="contentSection">
                 <div class="content">
@@ -226,10 +226,10 @@ text-align: center;
                     <p class="pb-2 text-base">Edu-tech project for an university in UK</p>
                     <br />
                     <div class="logo pb-1">
-                    <img class="logoImages" src="/react.png" alt="" />
-                    <img class="logoImages" src="/gatsby.png" alt="" />
-                    <img class="logoImages" src="/nodejs.png" alt="" />
-                    <img class="logoImages" src="/amazon.png" alt="" />
+                    <img loading="lazy" class="logoImages" src="/react.png" alt="" />
+                    <img loading="lazy" class="logoImages" src="/gatsby.png" alt="" />
+                    <img loading="lazy" class="logoImages" src="/nodejs.png" alt="" />
+                    <img loading="lazy" class="logoImages" src="/amazon.png" alt="" />
                     </div>
                     <!-- <button class="button">Read More...</button> -->
                 </div>

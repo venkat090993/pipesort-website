@@ -85,7 +85,7 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 <div class=" lg:flex lg:flex-row lg:w-full lg:my-2 md:flex md:flex-row md:w-full md:py-2 shadow-md md:m-auto sm: m-auto  sm: flex sm: flex-row sm: w-full sm: py-2" >
 
 <div class="lg:1/12 lg:bg-white-300 md:w-2/6 md:my-2 md:py-2 md:px-2 sm: w-1/5 sm: mt-8 ">
-<img class="lg:w-3/5 lg:h-1/2 md:w-1/2 m-auto align-middle sm: w-full sm: px-2" src={item.logo} alt="logo" />
+<img loading="lazy" class="lg:w-3/5 lg:h-1/2 md:w-1/2 m-auto align-middle sm: w-full sm: px-2" src={item.logo} alt="logo" />
 </div>
 
 <div class=" lg:w-11/12 lg:px-2 md:w-5/6 sm: w-full sm: py-5 sm: pr-5">
@@ -111,7 +111,7 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 
 <div class=" lg:flex lg:flex-col lg:w-1/2 lg:row right sm: w-10/12 sm: m-auto">
 <div class="flex flex-col w-full align-middle justify-center sm: w-10/12 sm: h-1/2 sm: m-auto">
-<img src="./lap.png" alt="bannerImage" class="lg:w-full lg:h-full lg:mt-20 md:w-full md:h-screen z-10" />
+<img loading="lazy" src="./lap.png" alt="bannerImage" class="lg:w-full lg:h-full lg:mt-20 md:w-full md:h-screen z-10" />
 </div>
 
 </div>
@@ -139,7 +139,7 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 <div class=" lg:flex lg:flex-row lg:w-full lg:my-2 md:flex md:flex-row md:w-full md:py-2 shadow-md md:m-auto sm: m-auto  sm: flex sm: flex-row sm: w-full sm: py-2" >
 
 <div class="z-20 lg:1/12 lg:bg-white-300 md:w-2/6 md:my-2 md:py-2 md:px-2 sm: w-1/5 sm: mt-8 ">
-<img class="lg:w-3/5 lg:h-1/2 md:w-1/2 md:w-1/2 md:h-1/2 m-auto align-middle sm: w-full sm: px-2" src={item.logo} alt="logo" />
+<img loading="lazy" class="lg:w-3/5 lg:h-1/2 md:w-1/2 md:w-1/2 md:h-1/2 m-auto align-middle sm: w-full sm: px-2" src={item.logo} alt="logo" />
 </div>
 
 <div class=" lg:w-11/12 lg:px-2 md:w-5/6 sm: w-full sm: py-5 sm: pr-5">
@@ -165,7 +165,7 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 
 <div class=" lg:flex lg:flex-col lg:w-1/2 md:mt-10 md:m-auto  lg:row right sm: w-10/12 sm: m-auto">
 <div class="lg:flex lg:flex-col lg:w-full lg:h-full lg:align-middle lg:justify-center md:flex md:flex-col md:align-middle md:w-full md:m-auto md:justify-center md:ml-16 sm: w-10/12 sm: m-auto">
-<img  loading="lazy" src="./new-arokiya-mobile.png" alt="bannerImage" class="lg:mt-64 xl:mt-40 md: -ml-16 lg:w-full lg:h-full md:w-full md:h-1/2 sm: mt-10 z-10 " />
+<img  loading="lazy" src="./ph.png" alt="bannerImage" class="lg:mt-64 xl:mt-40 md: -ml-16 lg:w-full lg:h-full md:w-full md:h-1/2 sm: mt-10 z-10 " />
 </div>
 
 </div>
