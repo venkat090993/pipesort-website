@@ -1,6 +1,5 @@
 <script>
 import OurWork from './ourWork.svelte';
-import TechWeUse from './techPage.svelte';
 import ContactForm from "./contactform.svelte";
 import About from "./about.svelte";
 import Cloud from "./cloudInternal.svelte";
@@ -9,11 +8,6 @@ import Cloud from "./cloudInternal.svelte";
 
 <style>
 
-.hr{
-    width:100%;
-    height:2px;
-    background-color: black;
-}
 
 .logo{
     visibility: visible;
@@ -35,12 +29,6 @@ font-size: 1.5rem;
     align-items: center;
     height: 80vh;
     }
-
-  /* .seven{
-    color:#fd6378;
-    font-size: 8rem;
-    margin:0
-  } */
 
 .base{
     position: absolute;
@@ -490,11 +478,10 @@ visibility: hidden;
 </div>
 
 </div>
-<!-- <hr class="hr"/> -->
+
 <About />
 
 <Cloud />
 
 <OurWork />
 
-<!-- <TechWeUse /> -->
