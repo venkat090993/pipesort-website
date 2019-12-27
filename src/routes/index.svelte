@@ -30,18 +30,18 @@ font-size: 1.5rem;
     height: 80vh;
     }
 
-    @media screen and (min-color-index:0) and (min-width:1240px) and (-webkit-min-device-pixel-ratio:0)
-{ @media {
-   .home-container {
+@supports (overflow:-webkit-marquee) and (justify-content:inherit)
+{
+      .home-container {
       position: relative;
       flex:1;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: 58vh;
+    height: 80vh;
     }
-}}
+}
 
 .base{
     position: absolute;
