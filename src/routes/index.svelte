@@ -34,7 +34,6 @@ font-size: 1.5rem;
     justify-content: flex-end;
     align-items: center;
     height: 80vh;
-    width:100%;
     }
 
   /* .seven{
@@ -196,12 +195,12 @@ visibility: hidden;
 
 
  
-  @media (max-width: 900px) {
+  @media (max-width: 1024px) {
     .home-container {
       flex-direction: column;
       flex:1;
       text-align: center;
-      width:100vh;
+      /* width:100%; */
       margin:auto;
     }
 
@@ -439,14 +438,14 @@ visibility: hidden;
 
 
 <svelte:head>
-  <title>70.com</title>
+  <title>Pipesort Technologies</title>
 </svelte:head>
 
-<div loading="lazy" style="background: url('grey.png')" class=" shadow-xl flex flex-col justify-start items-center lg:w-full lg: pb-10 md:w-full sm: w-full sm: h-full">
+<div style="background: url('grey.png')" class=" shadow-xl flex flex-col justify-start items-center lg:w-full lg: pb-10 md:w-full sm: w-full sm: h-full">
 
 <div class="home-container flex flex-col lg:-mb-20 justify-start items-center lg:w-full md:w-full md:-mb-20 md:mt-24 sm: w-full sm: h-full">
 
-<div class="lg:w-20 lg:h-20 lg:bg-red-800 lg:-mt-10 lg:logo md:w-20 md:h-20  md:mt-20 md:bg-red-800 md:logo sm: w-20 sm: h-20 sm: bg-red-800 sm: logo sm: mt-16"><img src="702logo.svg" alt="logo" /></div>
+<div class="lg:w-20 lg:h-20 lg:bg-red-800 lg:-mt-10 lg:logo md:w-20 md:h-20  md:mt-20 md:bg-red-800 md:logo sm: w-20 sm: h-20 sm: bg-red-800 sm: logo sm: mt-16"><img src="701logo.svg" alt="logo" /></div>
 
 <div class="w-1/2 flex flex-col justify-start h-1/2 items-center lg:-mt-12 md:-mt-20 sm: -mt-10 sm: h-1/2">
 

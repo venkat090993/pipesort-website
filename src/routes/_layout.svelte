@@ -59,7 +59,9 @@ onMount( ()=>{
     width: 100%;
     display: flex;
     flex-direction: column;
-    font-family: "montserrat"; }
+    font-family: "montserrat"; 
+    /* background: yellowgreen; */
+    }
 
   footer {
     color: #AAA;
@@ -74,6 +76,25 @@ onMount( ()=>{
           width:100%;
           background: white;
       }
+
+        main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin:auto;
+    /* max-width: 1400px; */
+    background-color: white;
+    /* padding: 1em 2em; */
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "montserrat"; 
+    background: yellowgreen;
+    }
+
   }
 </style>
 

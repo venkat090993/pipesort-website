@@ -17,54 +17,15 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 
 <style>
 
-.image{
-    height: 700px;
-}
-
-.imagephone{
-
-    height:500px;
-    width:100%;
-
-    
-    }
-
-@media screen and (min-width: 768px){
-
-    .image{
-        margin-top: 10px;
-    height: 400px;
-}
-
-.imagephone{
-   margin-top: 10px;
-   margin-left:10px;
-   height:100%;
-    width: 80%;
-    
-    }
-
-@media screen and (max-width: 450px){
-
-    .image{
-    height: 100px;
-}
-
-.imagephone{
-
-    height:200px;
-    width: 250px;
-    
-    }
-}
 
 
-}
+
+
 
 </style>
 
 
-<div class="lg:container lg:flex lg:flex-col lg:justify-center lg:align-middle lg:w-full lg:z-20 md:container md:flex md:flex-col md:justify-center md:align-middle md:w-full md:z-20 sm: container sm: flex sm: flex-col sm: justify-center sm: align-middle sm: w-full sm: z-20">
+<div class="lg:container lg:flex lg:flex-col lg:justify-center lg:align-middle lg:w-full lg:z-20 md:container md:flex md:flex-col md:justify-center md:align-middle md:w-full md:z-20 sm: flex sm: flex-col sm: w-full sm: z-20">
 <!-- outerdiv -->
 <div>
 <!-- container text div -->
@@ -165,8 +126,8 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 <!--right column-->
 
 <div class=" lg:flex lg:flex-col lg:w-1/2 md:mt-10 md:m-auto  lg:row right sm: w-10/12 sm: m-auto">
-<div class="lg:flex lg:flex-col lg:w-full lg:h-full lg:align-middle lg:justify-center md:flex md:flex-col md:align-middle md:w-full md:m-auto md:justify-center md:align-middle sm: w-10/12 sm: ml-24 sm: m-auto">
-<img  loading="lazy" src="./pho.png" alt="bannerImage" class="lg:w-4/6 lg:h-full lg:m-auto  md:w-1/2 md:h-1/2 md:ml-40 md:mt-0 md:h-full sm: mt-10 sm: -ml-20 z-10 xl:mt-40 " />
+<div class="lg:flex lg:flex-col lg:w-full lg:h-full lg:align-middle lg:justify-center md:flex md:flex-col md:align-middle md:w-full md:m-auto md:justify-center md:align-middle sm: w-10/12 ">
+<img  loading="lazy" src="./pho.png" alt="bannerImage" class="lg:w-4/6 lg:h-full lg:m-auto  md:w-1/2 md:h-1/2 md:ml-40 md:mt-0 md:h-full sm: ml-10 sm: my-10 sm: m-auto z-10 xl:mt-40 " />
 </div>
 
 </div>

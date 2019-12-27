@@ -13,6 +13,7 @@
     /* max-width: 1400px; */
     padding: 2em;
     width: 100%;
+    /* background: red; */
   }
 
   .logo{

@@ -180,7 +180,7 @@ text-align: center;
 
         <div class="item">
             <div class="imageSection bg-blue-100 sm: h-2/6">
-            <img loading="lazy" src="https://s3.amazonaws.com/dermio-admin/images/dermio-logo-lg.png" class="lg:h-1/2 w-full p-4 lg:mt-16 xl:mt-12 sm: my-20 " alt="dermio" />
+            <img src="https://s3.amazonaws.com/dermio-admin/images/dermio-logo-lg.png" class="lg:h-1/2 w-full p-4 lg:mt-16 xl:mt-12 sm: my-20 " alt="dermio" />
             </div>
             <div class="contentSection">
                 <div class="content">
