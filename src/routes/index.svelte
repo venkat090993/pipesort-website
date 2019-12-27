@@ -39,7 +39,7 @@ font-size: 1.5rem;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: 80vh;
+    height: 58vh;
     }
 }
 
