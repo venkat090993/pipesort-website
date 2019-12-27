@@ -12,7 +12,7 @@ border: 1px solid black;
 </style>
 
 
-<div class="container flex flex-col justify-center align-middle w-screen z-20 sm: mt-5">
+<div class="container flex flex-col justify-center align-middle w-screen z-20">
 <!-- outerdiv -->
 <div>
 <!-- container text div -->
