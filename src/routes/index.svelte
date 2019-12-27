@@ -105,7 +105,49 @@ visibility: hidden;
     }
 } 
 
+
+@-webkit-keyframes anim{
+    0%, 30%{
+        opacity: 0;
+        bottom:60%;
+visibility: hidden; 
+    }
+    40%,90%{
+        bottom:70%;
+        opacity: 1;
+        visibility: visible
+    }
+      95%,100%{
+        opacity: 0;
+        bottom:70%;
+visibility: hidden; 
+    }
+} 
+
+
 @keyframes anim1{
+    0%, 30%{
+        opacity: 0;
+        bottom:60%;
+visibility: hidden; 
+    }
+    40%,60%{
+        bottom:70%;
+        opacity: 1;
+        visibility: visible
+    }
+      70%,100%{
+        opacity: 1;
+        bottom:70%;
+        visibility: visible;
+    }
+
+
+
+} 
+
+
+@-webkit-keyframes anim1{
     0%, 30%{
         opacity: 0;
         bottom:43%;
