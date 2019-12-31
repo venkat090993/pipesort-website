@@ -92,10 +92,12 @@ onMount( ()=>{
     display: flex;
     flex-direction: column;
     font-family: "montserrat"; 
-    background: yellowgreen;
+    background: red;
     }
 
   }
+
+
 </style>
 
 <div class="layout">

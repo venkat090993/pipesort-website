@@ -30,18 +30,7 @@ font-size: 1.5rem;
     height: 80vh;
     }
 
-@supports (overflow:-webkit-marquee) and (justify-content:inherit)
-{
-      .home-container {
-      position: relative;
-      flex:1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    height: 58vh;
-    }
-}
+
 
 .base{
     position: absolute;
@@ -124,7 +113,9 @@ visibility: hidden;
 
 
 
-} @-webkit-keyframes anim{
+}
+
+ @-webkit-keyframes anim{
     0%, 30%{
         opacity: 0;
         bottom:30%;
@@ -350,6 +341,90 @@ visibility: hidden;
   
   }
 
+   @media only screen and (min-width: 1024px) {
+
+
+@-webkit-keyframes anim{
+    0%, 30%{
+        opacity: 0;
+        bottom:30%;
+visibility: hidden; 
+    }
+    40%,90%{
+        bottom:35%;
+        opacity: 1;
+        visibility: visible
+    }
+      95%,100%{
+        opacity: 0;
+        bottom:35%;
+visibility: hidden; 
+    }
+} 
+
+@-webkit-keyframes anim1{
+    0%, 30%{
+        opacity: 0;
+        bottom:30%;
+visibility: hidden; 
+    }
+    40%,60%{
+        bottom:35%;
+        opacity: 1;
+        visibility: visible
+    }
+      70%,100%{
+        opacity: 1;
+        bottom:35%;
+        visibility: visible;
+    }
+
+
+
+} 
+
+@-webkit-keyframes bodyAnimation{
+    0%, 30%{
+        opacity: 1;
+visibility: hidden; 
+    }
+    40%,90%{
+        opacity: 1;
+        visibility: visible
+    }
+      95%,100%{
+        opacity: 1;
+visibility: hidden; 
+    }
+} 
+
+@-webkit-keyframes bodyAnimation3 {
+0%, 30%{
+        opacity: 1;
+visibility: hidden; 
+    }
+    40%,60%{
+        opacity: 1;
+        visibility: visible
+    }
+      70%,100%{
+        opacity: 1;
+        visibility: visible
+    }
+
+
+} 
+
+  
+  }
+
+
+
+
+
+
+  
+
    @media only screen and (max-width: 450px) {
     .home-container {
             width:100%;
@@ -432,11 +507,45 @@ visibility: hidden;
         visibility: visible;
     }
 
+@keyframes anim{
+    0%, 30%{
+        opacity: 0;
+        bottom:30%;
+visibility: hidden; 
+    }
+    40%,90%{
+        bottom:35%;
+        opacity: 1;
+        visibility: visible
+    }
+      95%,100%{
+        opacity: 0;
+        bottom:35%;
+visibility: hidden; 
+    }
+} 
+
+@-webkit-keyframes anim1{
+    0%, 30%{
+        opacity: 0;
+        bottom:30%;
+visibility: hidden; 
+    }
+    40%,60%{
+        bottom:35%;
+        opacity: 1;
+        visibility: visible
+    }
+      70%,100%{
+        opacity: 1;
+        bottom:35%;
+        visibility: visible;
+    }
 
 
 } 
 
-@keyframes bodyAnimation{
+@-webkit-keyframes bodyAnimation{
     0%, 30%{
         opacity: 0;
         top:60%;
@@ -454,7 +563,7 @@ visibility: hidden;
     }
 } 
 
-@keyframes bodyAnimation3 {
+@-webkit-keyframes bodyAnimation3 {
 0%, 30%{
         opacity: 0;
         top:60%;
