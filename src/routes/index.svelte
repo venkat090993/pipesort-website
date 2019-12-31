@@ -591,7 +591,7 @@ visibility: hidden;
 
 
 <svelte:head>
-  <title>Pipesort Technologies</title>
+  <title>7Zero.com</title>
 </svelte:head>
 
 <div style="background: url('grey.png')" class=" shadow-xl flex flex-col justify-start items-center lg:w-full lg: pb-10 md:w-full sm: w-full sm: h-full">
