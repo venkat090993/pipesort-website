@@ -71,6 +71,10 @@ onMount( ()=>{
     width: 100%;
   }
 
+  main p{
+      font-family: sans-serif;
+  }
+
   @media screen and (min-width:768){
       footer{
           width:100%;

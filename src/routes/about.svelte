@@ -40,9 +40,12 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 <div>
 <!-- container text div -->
 <div class="lg:w-8/12 lg:m-auto md:w-8/12 md:m-auto sm: w-8/12 sm: m-auto">
-<h1 class="lg:text-5xl lg:py-10 lg:text-center lg:block md:block md:text-5xl md:py-10 md:text-center sm: hidden">Web Design & Development</h1>
-<h1 class="sm: text-3xl sm: font-bold sm: py-10 sm: text-center lg:hidden md:hidden sm: block">Web Design</h1>
-<p class="lg:text-xl lg:text-center md:text-xl md:text-center sm: text-base sm: text-center">We build websites optimized for what matters most — performance, sales, and happy customers that will return.</p>
+<h1 
+ class="lg:text-5xl lg:py-10 lg:text-center lg:block md:block md:text-5xl md:py-10 md:text-center sm: hidden">Web Design & Development</h1>
+<h1 
+class="sm: text-3xl sm: font-bold sm: py-10 sm: text-center lg:hidden md:hidden sm: block">Web Design</h1>
+<p 
+class="lg:text-2xl lg:text-center md:text-2xl md:text-center sm: text-xl sm: text-center" style="font-family:sans serif">We build websites optimized for what matters most — performance, sales, and happy customers that will return.</p>
 </div>
 <!-- closing text div -->
 
@@ -54,15 +57,18 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 
 {#each itemList as item}
 
-<div class=" lg:flex lg:flex-row lg:w-full lg:my-2 md:flex md:flex-row md:w-full md:py-2 shadow-md md:m-auto sm: m-auto  sm: flex sm: flex-row sm: w-full sm: py-2" >
+<div data-aos="zoom-in"
+     data-aos-easing="ease-in-sine"
+data-aos-ancor="bottom-top"
+data-aos-duration="800" class=" lg:flex lg:flex-row lg:w-full lg:my-2 md:flex md:flex-row md:w-full md:py-2 shadow-md md:m-auto sm: m-auto  sm: flex sm: flex-row sm: w-full sm: py-2" >
 
 <div class="lg:1/12 lg:bg-white-300 md:w-2/6 md:my-2 md:py-2 md:px-2 sm: w-1/5 sm: mt-8 ">
 <img loading="lazy" class="lg:w-3/5 lg:h-1/2 md:w-1/2 m-auto align-middle sm: w-full sm: px-2" src={item.logo} alt="logo" />
 </div>
 
 <div class=" lg:w-11/12 lg:px-2 md:w-5/6 sm: w-full sm: py-5 sm: pr-5">
-<h1 class="lg:text-xl lg:py-5 md:text-xl sm: text-xl sm: py-5 ">{item.title}</h1>
-<p class="lg:text-base md:text-base sm: text-sm">{item.content}</p>
+<h1 class="lg:text-2xl lg:py-5 md:text-2xl sm: text-xl sm: py-5 ">{item.title}</h1>
+<p class="lg:text-xl md:text-xl sm: text-base" style="font-family:sans serif">{item.content}</p>
 {#if item.tech != null}
 
 
@@ -95,28 +101,31 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 <!-- container text div -->
 <div class="lg:w-8/12 lg:m-auto md:w-8/12 md:m-auto sm: w-8/12 sm: m-auto">
 <h1 class="lg:text-5xl lg:py-10 lg:text-center lg:block md:block md:text-5xl md:py-10 md:text-center sm: hidden">Mobile App Design & Development</h1>
-<h1 class="sm: text-3xl sm: font-bold sm: py-10 sm: text-center lg:hidden md:hidden sm: block">Mobile Design</h1>
-<p class="lg:text-xl lg:text-center md:text-xl md:text-center sm: text-base sm: text-center">We design and build apps you can be proud of, while focusing on your goals for creating engaging user experiences.</p>
+<h1  class="sm: text-3xl sm: font-bold sm: py-10 sm: text-center lg:hidden md:hidden sm: block">Mobile Design</h1>
+<p class="lg:text-2xl lg:text-center md:text-2xl md:text-center sm: text-xl sm: text-center" style="font-family:sans serif">We design and build apps you can be proud of, while focusing on your goals for creating engaging user experiences.</p>
 </div>
 <!-- closing text div -->
 
 <!--main container-->
-<div class="lg:container lg:flex lg:flex-col lg:mt-10 md:container md:flex md:flex-col md:mt-10 sm: container sm: flex sm: flex-col sm: mt-10 ">
+<div  class="lg:container lg:flex lg:flex-col lg:mt-10 md:container md:flex md:flex-col md:mt-10 sm: container sm: flex sm: flex-col sm: mt-10 ">
 <div class="lg:flex lg:flex-row-reverse lg:flex-row lg:w-full md:flex md:flex-col md: w-full sm: flex-col  sm: w-full">
 <!--left column-->
 <div class="z-20 lg:flex lg:flex-col lg:w-1/2 md:flex md:flex-col md:w-full sm: flex sm: flex-col sm: w-full">
 
 {#each mobileItemList as item}
 
-<div class=" lg:flex lg:flex-row lg:w-full lg:my-2 md:flex md:flex-row md:w-full md:py-2 shadow-md md:m-auto sm: m-auto  sm: flex sm: flex-row sm: w-full sm: py-2" >
+<div data-aos="zoom-out"
+     data-aos-easing="ease-in-sine"
+data-aos-ancor="bottom-top"
+data-aos-duration="800" class=" lg:flex lg:flex-row lg:w-full lg:my-2 md:flex md:flex-row md:w-full md:py-2 shadow-md md:m-auto sm: m-auto  sm: flex sm: flex-row sm: w-full sm: py-2" >
 
 <div class="z-20 lg:1/12 lg:bg-white-300 md:w-2/6 md:my-2 md:py-2 md:px-2 sm: w-1/5 sm: mt-8 ">
 <img loading="lazy" class="lg:w-3/5 lg:h-1/2 md:w-1/2 md:w-1/2 md:h-1/2 m-auto align-middle sm: w-full sm: px-2" src={item.logo} alt="logo" />
 </div>
 
 <div class=" lg:w-11/12 lg:px-2 md:w-5/6 sm: w-full sm: py-5 sm: pr-5">
-<h1 class="lg:text-xl lg:py-5 md:text-xl sm: text-xl sm: py-5 ">{item.title}</h1>
-<p class="lg:text-base md:text-base sm: text-sm">{item.content}</p>
+<h1 class="lg:text-2xl lg:py-5 md:text-2xl sm: text-xl sm: py-5 ">{item.title}</h1>
+<p class="lg:text-xl md:text-xl sm: text-base" style="font-family:sans serif">{item.content}</p>
 {#if item.tech != null}
 
 

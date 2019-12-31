@@ -27,7 +27,7 @@
 <div class="flex flex-row justify-center align-middle">
 
 <a href="/" class="flex flex-row">
-  <img alt="Sapper" src='701logo.svg'><p class="text-2xl para">.com</p>
+  <img alt="Sapper" src='703logo.png'><p class="text-2xl para">.com</p>
 </a> 
 
 
