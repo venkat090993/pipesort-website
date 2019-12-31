@@ -505,7 +505,7 @@ visibility: hidden;
         opacity: 1;
         bottom:35%;
         visibility: visible;
-    }
+    }}
 
 @keyframes anim{
     0%, 30%{
