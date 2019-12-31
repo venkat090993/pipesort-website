@@ -39,7 +39,7 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 <!-- outerdiv -->
 <div>
 <!-- container text div -->
-<div class="lg:w-8/12 lg:m-auto md:w-8/12 md:m-auto sm: w-10/12 sm: m-auto">
+<div class="lg:w-8/12 lg:m-auto md:w-8/12 md:m-auto sm: w-11/12 sm: m-auto">
 <h1 
  class="lg:text-5xl lg:py-10 lg:text-center lg:block md:block md:text-5xl md:py-10 md:text-center sm: hidden">Web Design & Development</h1>
 <h1 
@@ -99,7 +99,7 @@ data-aos-duration="800" class=" lg:flex lg:flex-row lg:w-full lg:my-2 md:flex md
 <!--Outer div-->
 
 <!-- container text div -->
-<div class="lg:w-8/12 lg:m-auto md:w-8/12 md:m-auto sm: w-10/12 sm: m-auto">
+<div class="lg:w-8/12 lg:m-auto md:w-8/12 md:m-auto sm: w-11/12 sm: m-auto">
 <h1 class="lg:text-5xl lg:py-10 lg:text-center lg:block md:block md:text-5xl md:py-10 md:text-center sm: hidden">Mobile App Design & Development</h1>
 <h1  class="sm: text-3xl sm: font-bold sm: py-10 sm: text-center lg:hidden md:hidden sm: block">Mobile Design</h1>
 <p class="lg:text-2xl lg:text-center md:text-2xl md:text-center sm: text-xl sm: text-center" style="font-family:sans serif">We design and build apps you can be proud of, while focusing on your goals for creating engaging user experiences.</p>
