@@ -149,7 +149,7 @@ text-align: center;
       width:100%;
       margin:auto;
       box-sizing: border-box;
-      height: 450px;
+      height: auto;
       margin-bottom: 10px;
       
   }
@@ -184,7 +184,7 @@ text-align: center;
         <div data-aos="zoom-in"
         data-aos-delay="300"
      data-aos-duration="1000" class="item ">
-            <div class="imageSection bg-blue-100 sm: h-2/6">
+            <div class="imageSection bg-blue-100 sm: h-auto">
             <img src="https://s3.amazonaws.com/dermio-admin/images/dermio-logo-lg.png" class="lg:h-1/2 w-full p-4 lg:mt-16 xl:mt-12 sm: my-20 " alt="dermio" />
             </div>
             <div class="contentSection">
@@ -206,7 +206,7 @@ text-align: center;
          data-aos-delay="300"
      data-aos-duration="1500"
      class="item">
-            <div class="imageSection bg-black shadow-xl">
+            <div class="imageSection bg-black shadow-xl sm: h-auto">
             <img src="ct-full.svg" class="h-full w-full p-4 mt-0 bg-black shadow-xl sm: mt-0" alt="Arokiya" />
             </div>
             <div class="contentSection">
@@ -229,7 +229,7 @@ text-align: center;
          data-aos-delay="300"
      data-aos-duration="1500"
       class="item">
-            <div class="imageSection">
+            <div class="imageSection sm: h-auto">
             <img loading="lazy" src="RHACC-logo-dark.svg" class="h-full w-full p-4 m-0 bg-gray-200 " alt="RHACC" />
             </div>
             <div class="contentSection">
@@ -244,6 +244,7 @@ text-align: center;
                     <img loading="lazy" class="logoImages" src="/amazon.png" alt="" />
                     </div>
                     <!-- <button class="button">Read More...</button> -->
+
                 </div>
             </div>
         </div>
