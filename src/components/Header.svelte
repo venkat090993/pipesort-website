@@ -71,7 +71,7 @@
 
 </style>
 
-<header class="flex flex-row justify-between">
+<header class="flex flex-row justify-between shadow-2xl bg-gray-700">
 <div class="logo"><Logo />
 </div>
 

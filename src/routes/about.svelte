@@ -35,7 +35,7 @@ let mobileItemList = [{title:"Consultation", content:"We take care of product re
 </style>
 
 
-<div class="lg:container lg:flex lg:flex-col lg:justify-center lg:align-middle lg:w-full lg:z-20 md:container md:flex md:flex-col md:justify-center md:align-middle md:w-full md:z-20 sm: container sm: flex sm: flex-col sm: justify-center sm: align-middle sm: w-full sm: z-20">
+<div class="lg:container lg:flex lg:flex-col lg:justify-center lg:align-middle lg:w-10/12 lg:z-20 md:container md:flex md:flex-col md:justify-center md:align-middle md:w-11/12 md:z-20 sm: container sm: flex sm: flex-col sm: justify-center sm: align-middle sm: w-full sm: z-20">
 <!-- outerdiv -->
 <div>
 <!-- container text div -->
